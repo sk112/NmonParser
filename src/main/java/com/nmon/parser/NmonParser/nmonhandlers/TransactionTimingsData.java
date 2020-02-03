@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.stream.Collectors;
-import java.sql.Timestamp;
 
 public class TransactionTimingsData {
 
@@ -32,7 +31,7 @@ public class TransactionTimingsData {
     }
 
     private void storeTimeData() throws IOException {
-        File resource = new ClassPathResource("static/data/NmonFile.nmon").getFile();
+        File resource = new ClassPathResource("static/data/nmon/NmonFile.nmon").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
         try{

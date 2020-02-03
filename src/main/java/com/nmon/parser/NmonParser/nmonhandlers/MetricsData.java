@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -40,7 +39,7 @@ public class MetricsData{
      * Initialize metric attributes from MetricFile into Metrics Data
      */
     public void initializeMetricAttribute() throws IOException {
-        File resource = new ClassPathResource("static/data/MetricFile").getFile();
+        File resource = new ClassPathResource("static/data/nmon/MetricFile").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
         try{
@@ -65,7 +64,7 @@ public class MetricsData{
     }
 
     private void initializeMetricsData(TransactionTimingsData t) throws IOException {
-        File resource = new ClassPathResource("static/data/NmonFile.nmon").getFile();
+        File resource = new ClassPathResource("static/data/nmon/NmonFile.nmon").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
         try{
