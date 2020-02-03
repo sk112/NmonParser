@@ -80,7 +80,7 @@ public class MetricsData{
 
                 boolean firstLine = true;
 
-                HashMap<Timestamp, HashMap<String, Float>> map = new HashMap<>();
+                HashMap<String, HashMap<String, Float>> map = new HashMap<>();
 
                 for(String  line : filteredLines){
 
@@ -96,7 +96,7 @@ public class MetricsData{
                         HashMap<String, String> tTime = t.transactionTimes.get(TZTime);
 
                         if(tTime != null){
-                            String keyTime = tTime.get("time")+","+tTime.get("date");
+
 
                             List<String> list = (List<String>) node.get("attributes");
 
@@ -110,13 +110,17 @@ public class MetricsData{
                                 }
                              });
 
+
                             //11:38:26,02-FEB-2020
                             SimpleDateFormat format = new SimpleDateFormat("hh:mm:ss,dd-MMM-yyyy");
                             Calendar cal = Calendar.getInstance();
 
+                            String keyTime = tTime.get("time")+","+tTime.get("date");
                             cal.setTime(format.parse(keyTime));
-                            Timestamp timestamp = new Timestamp(cal.getTimeInMillis());
-                            map.put(timestamp, values);
+                            /*Timestamp timestamp = new Timestamp(cal.getTimeInMillis());
+                            */
+
+                            map.put(TZTime, values);
 
                             metricData.put(Tname, map);
                         }else{
