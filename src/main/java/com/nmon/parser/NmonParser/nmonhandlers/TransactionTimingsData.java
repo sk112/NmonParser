@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -45,13 +47,19 @@ public class TransactionTimingsData {
                 String date = token.nextToken();
                 hash.put("date", date);
 
-               /* // format : 11:39:08 02-FEB-2020
-                SimpleDateFormat format = new SimpleDateFormat("");
-                                ------------ to do -------------
-                transactionTimes.put("timestamp", new Timestamp(time+" "+date));*/
+                // format : 11:39:08,02-FEB-2020
+                SimpleDateFormat format = new SimpleDateFormat("hh:mm:ss,dd-MMM-yyyy");
+                Calendar cal = Calendar.getInstance();
 
+                try {
+                    cal.setTime(format.parse(time+","+date));
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
 
-               transactionTimes.put(name, hash);
+                hash.put("timestamp", String.valueOf(cal.getTimeInMillis()));
+
+                transactionTimes.put(name, hash);
 
             });
 
