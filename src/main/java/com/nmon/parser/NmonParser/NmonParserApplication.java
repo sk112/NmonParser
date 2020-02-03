@@ -1,5 +1,6 @@
 package com.nmon.parser.NmonParser;
 
+import com.nmon.parser.NmonParser.iostat.IOStatData;
 import com.nmon.parser.NmonParser.nmonhandlers.MetricsData;
 import com.nmon.parser.NmonParser.nmonhandlers.TransactionTimingsData;
 import org.springframework.boot.SpringApplication;
@@ -17,6 +18,7 @@ public class NmonParserApplication extends SpringBootServletInitializer {
 	}
 
 	public static void main(String[] args) throws IOException {
+		IOStatData io = new IOStatData();
 		TransactionTimingsData t = new TransactionTimingsData();
 		MetricsData m = new MetricsData(t);
 
