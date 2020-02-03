@@ -1,4 +1,5 @@
-Device: [sdb]
+Device: sdb
+Timeinterval : 10
 Metrics:
     - rrqm/s
     - wrqm/s
