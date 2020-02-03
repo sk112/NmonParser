@@ -13,9 +13,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 public class ResourceHandlers implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/data/**")
-                .addResourceLocations("classpath:/static/data/");
+        registry.addResourceHandler("/data/iostat/**")
+                .addResourceLocations("classpath:/static/data/iostat");
 
+        registry.addResourceHandler("/data/nmon/**")
+                .addResourceLocations("classpath:/static/data/nmon");
     }
 
     @Bean
