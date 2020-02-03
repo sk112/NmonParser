@@ -20,7 +20,18 @@ public class TransactionTimingsData {
 
     public HashMap<String, HashMap<String, String>> transactionTimes = new HashMap<>();
 
+    private double timeGap = 5.0;
+
     public TransactionTimingsData() throws IOException {
+        storeTimeData();
+        timeGap = calculateTimeGap();
+    }
+
+    private double calculateTimeGap() {
+            return 0.0;
+    }
+
+    private void storeTimeData() throws IOException {
         File resource = new ClassPathResource("static/data/NmonFile.nmon").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
@@ -28,8 +39,8 @@ public class TransactionTimingsData {
             List<String> lines = Files.readAllLines(path);
             List<String> timings =
                     lines.stream()
-                    .filter(line -> line.startsWith("ZZZZ"))
-                    .collect(Collectors.toList());
+                            .filter(line -> line.startsWith("ZZZZ"))
+                            .collect(Collectors.toList());
 
             timings.forEach(line -> {
 
@@ -62,6 +73,7 @@ public class TransactionTimingsData {
                 transactionTimes.put(name, hash);
 
             });
+
 
         }catch (Exception ex){
             ex.printStackTrace();
