@@ -1,0 +1,1590 @@
+AAA,progname,nmon
+AAA,command,nmon -s2 -c10000 -F /home/sameer/Documents/sample.nmon 
+AAA,version,16g
+AAA,disks_per_line,150
+AAA,max_disks,256,set by -d option
+AAA,disks,41,
+AAA,host,ubuntu
+AAA,user,sameer
+AAA,OS,Linux,5.3.0-26-generic,#28~18.04.1-Ubuntu SMP Wed Dec 18 16:40:14 UTC 2019,x86_64
+AAA,runname,ubuntu
+AAA,time,11:38.22
+AAA,date,02-FEB-2020
+AAA,interval,2
+AAA,snapshots,10000
+AAA,cpus,8
+AAA,proc_stat_variables,8
+AAA,boottime,05:17 PM 28-Jan-2020
+AAA,note0, Warning - use the UNIX sort command to order this file before loading into a spreadsheet
+AAA,note1, The First Column is simply to get the output sorted in the right order
+AAA,note2, The T0001-T9999 column is a snapshot number. To work out the actual time; see the ZZZ section at the end
+CPU001,CPU 1 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU002,CPU 2 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU003,CPU 3 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU004,CPU 4 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU005,CPU 5 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU006,CPU 6 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU007,CPU 7 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU008,CPU 8 ubuntu,User%,Sys%,Wait%,Idle%,Steal%
+CPU_ALL,CPU Total ubuntu,User%,Sys%,Wait%,Idle%,Steal%,Busy,CPUs
+MEM,Memory MB ubuntu,memtotal,hightotal,lowtotal,swaptotal,memfree,highfree,lowfree,swapfree,memshared,cached,active,bigfree,buffers,swapcached,inactive
+PROC,Processes ubuntu,Runnable,Blocked,pswitch,syscall,read,write,fork,exec,sem,msg
+NET,Network I/O ubuntu,lo-read-KB/s,wlp2s0-read-KB/s,lo-write-KB/s,wlp2s0-write-KB/s
+NETPACKET,Network Packets ubuntu,lo-read/s,wlp2s0-read/s,lo-write/s,wlp2s0-write/s
+DISKBUSY,Disk %Busy ubuntu,loop0,loop1,loop2,loop3,loop4,loop5,loop6,loop7,sda,sda1,sda2,sda3,sda4,sda5,loop8,loop9,loop10,loop11,loop12,loop13,loop14,loop15,loop16,loop17,loop18,loop19,loop20,loop21,loop22,loop23,loop24,loop25,loop26,loop27,loop28,loop29,loop30,loop31,loop32,loop33,loop34
+DISKREAD,Disk Read KB/s ubuntu,loop0,loop1,loop2,loop3,loop4,loop5,loop6,loop7,sda,sda1,sda2,sda3,sda4,sda5,loop8,loop9,loop10,loop11,loop12,loop13,loop14,loop15,loop16,loop17,loop18,loop19,loop20,loop21,loop22,loop23,loop24,loop25,loop26,loop27,loop28,loop29,loop30,loop31,loop32,loop33,loop34
+DISKWRITE,Disk Write KB/s ubuntu,loop0,loop1,loop2,loop3,loop4,loop5,loop6,loop7,sda,sda1,sda2,sda3,sda4,sda5,loop8,loop9,loop10,loop11,loop12,loop13,loop14,loop15,loop16,loop17,loop18,loop19,loop20,loop21,loop22,loop23,loop24,loop25,loop26,loop27,loop28,loop29,loop30,loop31,loop32,loop33,loop34
+DISKXFER,Disk transfers per second ubuntu,loop0,loop1,loop2,loop3,loop4,loop5,loop6,loop7,sda,sda1,sda2,sda3,sda4,sda5,loop8,loop9,loop10,loop11,loop12,loop13,loop14,loop15,loop16,loop17,loop18,loop19,loop20,loop21,loop22,loop23,loop24,loop25,loop26,loop27,loop28,loop29,loop30,loop31,loop32,loop33,loop34
+DISKBSIZE,Disk Block Size ubuntu,loop0,loop1,loop2,loop3,loop4,loop5,loop6,loop7,sda,sda1,sda2,sda3,sda4,sda5,loop8,loop9,loop10,loop11,loop12,loop13,loop14,loop15,loop16,loop17,loop18,loop19,loop20,loop21,loop22,loop23,loop24,loop25,loop26,loop27,loop28,loop29,loop30,loop31,loop32,loop33,loop34
+JFSFILE,JFS Filespace %Used ubuntu,/dev,/run,/,/snap/core/8268,/snap/vlc/1397,/snap/eclipse/40,/snap/gnome-3-28-1804/116,/snap/core/8039,/snap/simplenote/177,/snap/pycharm-community/172,/snap/pycharm-professional/179,/snap/gtk-common-themes/1353,/snap/gnome-calculator/544,/snap/gnome-logs/61,/snap/gnome-system-monitor/127,/snap/wine-platform-runtime/75,/snap/gnome-characters/375,/snap/pycharm-community/175,/snap/core18/1650,/snap/wine-platform-3-stable/6,/snap/intellij-idea-community/197,/snap/gnome-system-monitor/123,/snap/gnome-3-28-1804/110,/snap/gnome-calculator/406,/snap/pycharm-professional/176,/snap/postman/97,/snap/gnome-characters/399,/snap/notepad-plus-plus/222,/snap/gnome-logs/81,/snap/intellij-idea-community/202,/snap/electronplayer/9,/snap/gtk-common-themes/1440,/snap/core18/1668,/snap/notepad-plus-plus/223
+BBBP,000,/etc/release
+BBBP,001,/etc/release,"DISTRIB_ID=Ubuntu"
+BBBP,002,/etc/release,"DISTRIB_RELEASE=18.04"
+BBBP,003,/etc/release,"DISTRIB_CODENAME=bionic"
+BBBP,004,/etc/release,"DISTRIB_DESCRIPTION=QUbuntu 18.04.3 LTSQ"
+BBBP,005,/etc/release,"NAME=QUbuntuQ"
+BBBP,006,/etc/release,"VERSION=Q18.04.3 LTS (Bionic Beaver)Q"
+BBBP,007,/etc/release,"ID=ubuntu"
+BBBP,008,/etc/release,"ID_LIKE=debian"
+BBBP,009,/etc/release,"PRETTY_NAME=QUbuntu 18.04.3 LTSQ"
+BBBP,010,/etc/release,"VERSION_ID=Q18.04Q"
+BBBP,011,/etc/release,"HOME_URL=Qhttps://www.ubuntu.com/Q"
+BBBP,012,/etc/release,"SUPPORT_URL=Qhttps://help.ubuntu.com/Q"
+BBBP,013,/etc/release,"BUG_REPORT_URL=Qhttps://bugs.launchpad.net/ubuntu/Q"
+BBBP,014,/etc/release,"PRIVACY_POLICY_URL=Qhttps://www.ubuntu.com/legal/terms-and-policies/privacy-policyQ"
+BBBP,015,/etc/release,"VERSION_CODENAME=bionic"
+BBBP,016,/etc/release,"UBUNTU_CODENAME=bionic"
+BBBP,017,lsb_release
+BBBP,018,fdisk-l
+BBBP,019,lsblk
+BBBP,020,lscpu
+BBBP,021,lscpu,"Architecture:        x86_64"
+BBBP,022,lscpu,"CPU op-mode(s):      32-bit, 64-bit"
+BBBP,023,lscpu,"Byte Order:          Little Endian"
+BBBP,024,lscpu,"CPU(s):              8"
+BBBP,025,lscpu,"On-line CPU(s) list: 0-7"
+BBBP,026,lscpu,"Thread(s) per core:  2"
+BBBP,027,lscpu,"Core(s) per socket:  4"
+BBBP,028,lscpu,"Socket(s):           1"
+BBBP,029,lscpu,"NUMA node(s):        1"
+BBBP,030,lscpu,"Vendor ID:           GenuineIntel"
+BBBP,031,lscpu,"CPU family:          6"
+BBBP,032,lscpu,"Model:               142"
+BBBP,033,lscpu,"Model name:          Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,034,lscpu,"Stepping:            10"
+BBBP,035,lscpu,"CPU MHz:             2987.486"
+BBBP,036,lscpu,"CPU max MHz:         3400.0000"
+BBBP,037,lscpu,"CPU min MHz:         400.0000"
+BBBP,038,lscpu,"BogoMIPS:            3600.00"
+BBBP,039,lscpu,"Virtualization:      VT-x"
+BBBP,040,lscpu,"L1d cache:           32K"
+BBBP,041,lscpu,"L1i cache:           32K"
+BBBP,042,lscpu,"L2 cache:            256K"
+BBBP,043,lscpu,"L3 cache:            6144K"
+BBBP,044,lscpu,"NUMA node0 CPU(s):   0-7"
+BBBP,045,lscpu,"Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,046,lshw
+BBBP,047,lshw,"ubuntu"
+BBBP,048,lshw,"    description: Computer"
+BBBP,049,lshw,"    width: 64 bits"
+BBBP,050,lshw,"    capabilities: smp vsyscall32"
+BBBP,051,lshw,"  *-core"
+BBBP,052,lshw,"       description: Motherboard"
+BBBP,053,lshw,"       physical id: 0"
+BBBP,054,lshw,"     *-memory"
+BBBP,055,lshw,"          description: System memory"
+BBBP,056,lshw,"          physical id: 0"
+BBBP,057,lshw,"          size: 7842MiB"
+BBBP,058,lshw,"     *-cpu"
+BBBP,059,lshw,"          product: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,060,lshw,"          vendor: Intel Corp."
+BBBP,061,lshw,"          physical id: 1"
+BBBP,062,lshw,"          bus info: cpu@0"
+BBBP,063,lshw,"          size: 2957MHz"
+BBBP,064,lshw,"          capacity: 3400MHz"
+BBBP,065,lshw,"          width: 64 bits"
+BBBP,066,lshw,"          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d cpufreq"
+BBBP,067,lshw,"     *-pci"
+BBBP,068,lshw,"          description: Host bridge"
+BBBP,069,lshw,"          product: Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers"
+BBBP,070,lshw,"          vendor: Intel Corporation"
+BBBP,071,lshw,"          physical id: 100"
+BBBP,072,lshw,"          bus info: pci@0000:00:00.0"
+BBBP,073,lshw,"          version: 08"
+BBBP,074,lshw,"          width: 32 bits"
+BBBP,075,lshw,"          clock: 33MHz"
+BBBP,076,lshw,"          configuration: driver=skl_uncore"
+BBBP,077,lshw,"          resources: irq:0"
+BBBP,078,lshw,"        *-display"
+BBBP,079,lshw,"             description: VGA compatible controller"
+BBBP,080,lshw,"             product: UHD Graphics 620"
+BBBP,081,lshw,"             vendor: Intel Corporation"
+BBBP,082,lshw,"             physical id: 2"
+BBBP,083,lshw,"             bus info: pci@0000:00:02.0"
+BBBP,084,lshw,"             version: 07"
+BBBP,085,lshw,"             width: 64 bits"
+BBBP,086,lshw,"             clock: 33MHz"
+BBBP,087,lshw,"             capabilities: vga_controller bus_master cap_list rom"
+BBBP,088,lshw,"             configuration: driver=i915 latency=0"
+BBBP,089,lshw,"             resources: irq:127 memory:ee000000-eeffffff memory:d0000000-dfffffff ioport:f000(size=64) memory:c0000-dffff"
+BBBP,090,lshw,"        *-generic:0"
+BBBP,091,lshw,"             description: Signal processing controller"
+BBBP,092,lshw,"             product: Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem"
+BBBP,093,lshw,"             vendor: Intel Corporation"
+BBBP,094,lshw,"             physical id: 4"
+BBBP,095,lshw,"             bus info: pci@0000:00:04.0"
+BBBP,096,lshw,"             version: 08"
+BBBP,097,lshw,"             width: 64 bits"
+BBBP,098,lshw,"             clock: 33MHz"
+BBBP,099,lshw,"             capabilities: cap_list"
+BBBP,100,lshw,"             configuration: driver=proc_thermal latency=0"
+BBBP,101,lshw,"             resources: irq:16 memory:ef1a8000-ef1affff"
+BBBP,102,lshw,"        *-usb"
+BBBP,103,lshw,"             description: USB controller"
+BBBP,104,lshw,"             product: Sunrise Point-LP USB 3.0 xHCI Controller"
+BBBP,105,lshw,"             vendor: Intel Corporation"
+BBBP,106,lshw,"             physical id: 14"
+BBBP,107,lshw,"             bus info: pci@0000:00:14.0"
+BBBP,108,lshw,"             version: 21"
+BBBP,109,lshw,"             width: 64 bits"
+BBBP,110,lshw,"             clock: 33MHz"
+BBBP,111,lshw,"             capabilities: xhci bus_master cap_list"
+BBBP,112,lshw,"             configuration: driver=xhci_hcd latency=0"
+BBBP,113,lshw,"             resources: irq:124 memory:ef190000-ef19ffff"
+BBBP,114,lshw,"        *-generic:1"
+BBBP,115,lshw,"             description: Signal processing controller"
+BBBP,116,lshw,"             product: Sunrise Point-LP Thermal subsystem"
+BBBP,117,lshw,"             vendor: Intel Corporation"
+BBBP,118,lshw,"             physical id: 14.2"
+BBBP,119,lshw,"             bus info: pci@0000:00:14.2"
+BBBP,120,lshw,"             version: 21"
+BBBP,121,lshw,"             width: 64 bits"
+BBBP,122,lshw,"             clock: 33MHz"
+BBBP,123,lshw,"             capabilities: cap_list"
+BBBP,124,lshw,"             configuration: driver=intel_pch_thermal latency=0"
+BBBP,125,lshw,"             resources: irq:18 memory:ef1c0000-ef1c0fff"
+BBBP,126,lshw,"        *-generic:2"
+BBBP,127,lshw,"             description: Signal processing controller"
+BBBP,128,lshw,"             product: Sunrise Point-LP Serial IO I2C Controller #0"
+BBBP,129,lshw,"             vendor: Intel Corporation"
+BBBP,130,lshw,"             physical id: 15"
+BBBP,131,lshw,"             bus info: pci@0000:00:15.0"
+BBBP,132,lshw,"             version: 21"
+BBBP,133,lshw,"             width: 64 bits"
+BBBP,134,lshw,"             clock: 33MHz"
+BBBP,135,lshw,"             capabilities: bus_master cap_list"
+BBBP,136,lshw,"             configuration: driver=intel-lpss latency=0"
+BBBP,137,lshw,"             resources: irq:16 memory:ef1bf000-ef1bffff"
+BBBP,138,lshw,"        *-generic:3"
+BBBP,139,lshw,"             description: Signal processing controller"
+BBBP,140,lshw,"             product: Sunrise Point-LP Serial IO I2C Controller #1"
+BBBP,141,lshw,"             vendor: Intel Corporation"
+BBBP,142,lshw,"             physical id: 15.1"
+BBBP,143,lshw,"             bus info: pci@0000:00:15.1"
+BBBP,144,lshw,"             version: 21"
+BBBP,145,lshw,"             width: 64 bits"
+BBBP,146,lshw,"             clock: 33MHz"
+BBBP,147,lshw,"             capabilities: bus_master cap_list"
+BBBP,148,lshw,"             configuration: driver=intel-lpss latency=0"
+BBBP,149,lshw,"             resources: irq:17 memory:ef1be000-ef1befff"
+BBBP,150,lshw,"        *-communication"
+BBBP,151,lshw,"             description: Communication controller"
+BBBP,152,lshw,"             product: Sunrise Point-LP CSME HECI #1"
+BBBP,153,lshw,"             vendor: Intel Corporation"
+BBBP,154,lshw,"             physical id: 16"
+BBBP,155,lshw,"             bus info: pci@0000:00:16.0"
+BBBP,156,lshw,"             version: 21"
+BBBP,157,lshw,"             width: 64 bits"
+BBBP,158,lshw,"             clock: 33MHz"
+BBBP,159,lshw,"             capabilities: bus_master cap_list"
+BBBP,160,lshw,"             configuration: driver=mei_me latency=0"
+BBBP,161,lshw,"             resources: irq:126 memory:ef1bd000-ef1bdfff"
+BBBP,162,lshw,"        *-storage"
+BBBP,163,lshw,"             description: RAID bus controller"
+BBBP,164,lshw,"             product: 82801 Mobile SATA Controller [RAID mode]"
+BBBP,165,lshw,"             vendor: Intel Corporation"
+BBBP,166,lshw,"             physical id: 17"
+BBBP,167,lshw,"             bus info: pci@0000:00:17.0"
+BBBP,168,lshw,"             version: 21"
+BBBP,169,lshw,"             width: 32 bits"
+BBBP,170,lshw,"             clock: 66MHz"
+BBBP,171,lshw,"             capabilities: storage bus_master cap_list"
+BBBP,172,lshw,"             configuration: driver=ahci latency=0"
+BBBP,173,lshw,"             resources: irq:125 memory:ef1a0000-ef1a7fff memory:ef1bc000-ef1bc0ff ioport:f090(size=8) ioport:f080(size=4) ioport:f060(size=32) memory:ef100000-ef17ffff"
+BBBP,174,lshw,"        *-pci:0"
+BBBP,175,lshw,"             description: PCI bridge"
+BBBP,176,lshw,"             product: Sunrise Point-LP PCI Express Root Port #1"
+BBBP,177,lshw,"             vendor: Intel Corporation"
+BBBP,178,lshw,"             physical id: 1c"
+BBBP,179,lshw,"             bus info: pci@0000:00:1c.0"
+BBBP,180,lshw,"             version: f1"
+BBBP,181,lshw,"             width: 32 bits"
+BBBP,182,lshw,"             clock: 33MHz"
+BBBP,183,lshw,"             capabilities: pci normal_decode bus_master cap_list"
+BBBP,184,lshw,"             configuration: driver=pcieport"
+BBBP,185,lshw,"             resources: irq:122 ioport:2000(size=4096) memory:a0000000-a01fffff ioport:a0200000(size=2097152)"
+BBBP,186,lshw,"        *-pci:1"
+BBBP,187,lshw,"             description: PCI bridge"
+BBBP,188,lshw,"             product: Sunrise Point-LP PCI Express Root Port #6"
+BBBP,189,lshw,"             vendor: Intel Corporation"
+BBBP,190,lshw,"             physical id: 1c.5"
+BBBP,191,lshw,"             bus info: pci@0000:00:1c.5"
+BBBP,192,lshw,"             version: f1"
+BBBP,193,lshw,"             width: 32 bits"
+BBBP,194,lshw,"             clock: 33MHz"
+BBBP,195,lshw,"             capabilities: pci normal_decode bus_master cap_list"
+BBBP,196,lshw,"             configuration: driver=pcieport"
+BBBP,197,lshw,"             resources: irq:123 memory:ef000000-ef0fffff"
+BBBP,198,lshw,"           *-network"
+BBBP,199,lshw,"                description: Wireless interface"
+BBBP,200,lshw,"                product: QCA9565 / AR9565 Wireless Network Adapter"
+BBBP,201,lshw,"                vendor: Qualcomm Atheros"
+BBBP,202,lshw,"                physical id: 0"
+BBBP,203,lshw,"                bus info: pci@0000:02:00.0"
+BBBP,204,lshw,"                logical name: wlp2s0"
+BBBP,205,lshw,"                version: 01"
+BBBP,206,lshw,"                serial: 00:f4:8d:31:19:51"
+BBBP,207,lshw,"                width: 64 bits"
+BBBP,208,lshw,"                clock: 33MHz"
+BBBP,209,lshw,"                capabilities: bus_master cap_list rom ethernet physical wireless"
+BBBP,210,lshw,"                configuration: broadcast=yes driver=ath9k driverversion=5.3.0-26-generic firmware=N/A latency=0 link=no multicast=yes wireless=IEEE 802.11"
+BBBP,211,lshw,"                resources: irq:17 memory:ef000000-ef07ffff memory:ef080000-ef08ffff"
+BBBP,212,lshw,"        *-generic:4"
+BBBP,213,lshw,"             description: Signal processing controller"
+BBBP,214,lshw,"             product: Sunrise Point-LP Serial IO UART Controller #0"
+BBBP,215,lshw,"             vendor: Intel Corporation"
+BBBP,216,lshw,"             physical id: 1e"
+BBBP,217,lshw,"             bus info: pci@0000:00:1e.0"
+BBBP,218,lshw,"             version: 21"
+BBBP,219,lshw,"             width: 64 bits"
+BBBP,220,lshw,"             clock: 33MHz"
+BBBP,221,lshw,"             capabilities: bus_master cap_list"
+BBBP,222,lshw,"             configuration: driver=intel-lpss latency=0"
+BBBP,223,lshw,"             resources: irq:20 memory:ef1bb000-ef1bbfff"
+BBBP,224,lshw,"        *-generic:5"
+BBBP,225,lshw,"             description: Signal processing controller"
+BBBP,226,lshw,"             product: Sunrise Point-LP Serial IO SPI Controller #0"
+BBBP,227,lshw,"             vendor: Intel Corporation"
+BBBP,228,lshw,"             physical id: 1e.2"
+BBBP,229,lshw,"             bus info: pci@0000:00:1e.2"
+BBBP,230,lshw,"             version: 21"
+BBBP,231,lshw,"             width: 64 bits"
+BBBP,232,lshw,"             clock: 33MHz"
+BBBP,233,lshw,"             capabilities: bus_master cap_list"
+BBBP,234,lshw,"             configuration: driver=intel-lpss latency=0"
+BBBP,235,lshw,"             resources: irq:22 memory:ef1ba000-ef1bafff"
+BBBP,236,lshw,"        *-generic:6"
+BBBP,237,lshw,"             description: SD Host controller"
+BBBP,238,lshw,"             product: Sunrise Point-LP Secure Digital IO Controller"
+BBBP,239,lshw,"             vendor: Intel Corporation"
+BBBP,240,lshw,"             physical id: 1e.6"
+BBBP,241,lshw,"             bus info: pci@0000:00:1e.6"
+BBBP,242,lshw,"             version: 21"
+BBBP,243,lshw,"             width: 64 bits"
+BBBP,244,lshw,"             clock: 33MHz"
+BBBP,245,lshw,"             capabilities: bus_master cap_list"
+BBBP,246,lshw,"             configuration: driver=sdhci-pci latency=0"
+BBBP,247,lshw,"             resources: irq:23 memory:ef1b9000-ef1b9fff"
+BBBP,248,lshw,"        *-isa"
+BBBP,249,lshw,"             description: ISA bridge"
+BBBP,250,lshw,"             product: Intel(R) 100 Series Chipset Family LPC Controller/eSPI Controller - 9D4E"
+BBBP,251,lshw,"             vendor: Intel Corporation"
+BBBP,252,lshw,"             physical id: 1f"
+BBBP,253,lshw,"             bus info: pci@0000:00:1f.0"
+BBBP,254,lshw,"             version: 21"
+BBBP,255,lshw,"             width: 32 bits"
+BBBP,256,lshw,"             clock: 33MHz"
+BBBP,257,lshw,"             capabilities: isa bus_master"
+BBBP,258,lshw,"             configuration: latency=0"
+BBBP,259,lshw,"        *-memory UNCLAIMED"
+BBBP,260,lshw,"             description: Memory controller"
+BBBP,261,lshw,"             product: Sunrise Point-LP PMC"
+BBBP,262,lshw,"             vendor: Intel Corporation"
+BBBP,263,lshw,"             physical id: 1f.2"
+BBBP,264,lshw,"             bus info: pci@0000:00:1f.2"
+BBBP,265,lshw,"             version: 21"
+BBBP,266,lshw,"             width: 32 bits"
+BBBP,267,lshw,"             clock: 33MHz (30.3ns)"
+BBBP,268,lshw,"             configuration: latency=0"
+BBBP,269,lshw,"             resources: memory:ef1b4000-ef1b7fff"
+BBBP,270,lshw,"        *-multimedia"
+BBBP,271,lshw,"             description: Audio device"
+BBBP,272,lshw,"             product: Sunrise Point-LP HD Audio"
+BBBP,273,lshw,"             vendor: Intel Corporation"
+BBBP,274,lshw,"             physical id: 1f.3"
+BBBP,275,lshw,"             bus info: pci@0000:00:1f.3"
+BBBP,276,lshw,"             version: 21"
+BBBP,277,lshw,"             width: 64 bits"
+BBBP,278,lshw,"             clock: 33MHz"
+BBBP,279,lshw,"             capabilities: bus_master cap_list"
+BBBP,280,lshw,"             configuration: driver=snd_hda_intel latency=32"
+BBBP,281,lshw,"             resources: irq:128 memory:ef1b0000-ef1b3fff memory:ef180000-ef18ffff"
+BBBP,282,lshw,"        *-serial UNCLAIMED"
+BBBP,283,lshw,"             description: SMBus"
+BBBP,284,lshw,"             product: Sunrise Point-LP SMBus"
+BBBP,285,lshw,"             vendor: Intel Corporation"
+BBBP,286,lshw,"             physical id: 1f.4"
+BBBP,287,lshw,"             bus info: pci@0000:00:1f.4"
+BBBP,288,lshw,"             version: 21"
+BBBP,289,lshw,"             width: 64 bits"
+BBBP,290,lshw,"             clock: 33MHz"
+BBBP,291,lshw,"             configuration: latency=0"
+BBBP,292,lshw,"             resources: memory:ef1b8000-ef1b80ff ioport:f040(size=32)"
+BBBP,293,/proc/cpuinfo
+BBBP,294,/proc/cpuinfo,"processor	: 0"
+BBBP,295,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,296,/proc/cpuinfo,"cpu family	: 6"
+BBBP,297,/proc/cpuinfo,"model		: 142"
+BBBP,298,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,299,/proc/cpuinfo,"stepping	: 10"
+BBBP,300,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,301,/proc/cpuinfo,"cpu MHz		: 2957.447"
+BBBP,302,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,303,/proc/cpuinfo,"physical id	: 0"
+BBBP,304,/proc/cpuinfo,"siblings	: 8"
+BBBP,305,/proc/cpuinfo,"core id		: 0"
+BBBP,306,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,307,/proc/cpuinfo,"apicid		: 0"
+BBBP,308,/proc/cpuinfo,"initial apicid	: 0"
+BBBP,309,/proc/cpuinfo,"fpu		: yes"
+BBBP,310,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,311,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,312,/proc/cpuinfo,"wp		: yes"
+BBBP,313,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,314,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,315,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,316,/proc/cpuinfo,"clflush size	: 64"
+BBBP,317,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,318,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,319,/proc/cpuinfo,"power management:"
+BBBP,320,/proc/cpuinfo,""
+BBBP,321,/proc/cpuinfo,"processor	: 1"
+BBBP,322,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,323,/proc/cpuinfo,"cpu family	: 6"
+BBBP,324,/proc/cpuinfo,"model		: 142"
+BBBP,325,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,326,/proc/cpuinfo,"stepping	: 10"
+BBBP,327,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,328,/proc/cpuinfo,"cpu MHz		: 3232.289"
+BBBP,329,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,330,/proc/cpuinfo,"physical id	: 0"
+BBBP,331,/proc/cpuinfo,"siblings	: 8"
+BBBP,332,/proc/cpuinfo,"core id		: 1"
+BBBP,333,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,334,/proc/cpuinfo,"apicid		: 2"
+BBBP,335,/proc/cpuinfo,"initial apicid	: 2"
+BBBP,336,/proc/cpuinfo,"fpu		: yes"
+BBBP,337,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,338,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,339,/proc/cpuinfo,"wp		: yes"
+BBBP,340,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d"
+BBBP,341,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,342,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,343,/proc/cpuinfo,"clflush size	: 64"
+BBBP,344,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,345,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,346,/proc/cpuinfo,"power management:"
+BBBP,347,/proc/cpuinfo,""
+BBBP,348,/proc/cpuinfo,"processor	: 2"
+BBBP,349,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,350,/proc/cpuinfo,"cpu family	: 6"
+BBBP,351,/proc/cpuinfo,"model		: 142"
+BBBP,352,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,353,/proc/cpuinfo,"stepping	: 10"
+BBBP,354,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,355,/proc/cpuinfo,"cpu MHz		: 3067.598"
+BBBP,356,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,357,/proc/cpuinfo,"physical id	: 0"
+BBBP,358,/proc/cpuinfo,"siblings	: 8"
+BBBP,359,/proc/cpuinfo,"core id		: 2"
+BBBP,360,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,361,/proc/cpuinfo,"apicid		: 4"
+BBBP,362,/proc/cpuinfo,"initial apicid	: 4"
+BBBP,363,/proc/cpuinfo,"fpu		: yes"
+BBBP,364,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,365,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,366,/proc/cpuinfo,"wp		: yes"
+BBBP,367,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d"
+BBBP,368,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,369,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,370,/proc/cpuinfo,"clflush size	: 64"
+BBBP,371,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,372,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,373,/proc/cpuinfo,"power management:"
+BBBP,374,/proc/cpuinfo,""
+BBBP,375,/proc/cpuinfo,"processor	: 3"
+BBBP,376,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,377,/proc/cpuinfo,"cpu family	: 6"
+BBBP,378,/proc/cpuinfo,"model		: 142"
+BBBP,379,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,380,/proc/cpuinfo,"stepping	: 10"
+BBBP,381,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,382,/proc/cpuinfo,"cpu MHz		: 3183.560"
+BBBP,383,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,384,/proc/cpuinfo,"physical id	: 0"
+BBBP,385,/proc/cpuinfo,"siblings	: 8"
+BBBP,386,/proc/cpuinfo,"core id		: 3"
+BBBP,387,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,388,/proc/cpuinfo,"apicid		: 6"
+BBBP,389,/proc/cpuinfo,"initial apicid	: 6"
+BBBP,390,/proc/cpuinfo,"fpu		: yes"
+BBBP,391,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,392,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,393,/proc/cpuinfo,"wp		: yes"
+BBBP,394,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d"
+BBBP,395,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,396,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,397,/proc/cpuinfo,"clflush size	: 64"
+BBBP,398,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,399,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,400,/proc/cpuinfo,"power management:"
+BBBP,401,/proc/cpuinfo,""
+BBBP,402,/proc/cpuinfo,"processor	: 4"
+BBBP,403,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,404,/proc/cpuinfo,"cpu family	: 6"
+BBBP,405,/proc/cpuinfo,"model		: 142"
+BBBP,406,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,407,/proc/cpuinfo,"stepping	: 10"
+BBBP,408,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,409,/proc/cpuinfo,"cpu MHz		: 2914.302"
+BBBP,410,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,411,/proc/cpuinfo,"physical id	: 0"
+BBBP,412,/proc/cpuinfo,"siblings	: 8"
+BBBP,413,/proc/cpuinfo,"core id		: 0"
+BBBP,414,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,415,/proc/cpuinfo,"apicid		: 1"
+BBBP,416,/proc/cpuinfo,"initial apicid	: 1"
+BBBP,417,/proc/cpuinfo,"fpu		: yes"
+BBBP,418,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,419,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,420,/proc/cpuinfo,"wp		: yes"
+BBBP,421,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,422,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,423,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,424,/proc/cpuinfo,"clflush size	: 64"
+BBBP,425,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,426,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,427,/proc/cpuinfo,"power management:"
+BBBP,428,/proc/cpuinfo,""
+BBBP,429,/proc/cpuinfo,"processor	: 5"
+BBBP,430,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,431,/proc/cpuinfo,"cpu family	: 6"
+BBBP,432,/proc/cpuinfo,"model		: 142"
+BBBP,433,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,434,/proc/cpuinfo,"stepping	: 10"
+BBBP,435,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,436,/proc/cpuinfo,"cpu MHz		: 3099.869"
+BBBP,437,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,438,/proc/cpuinfo,"physical id	: 0"
+BBBP,439,/proc/cpuinfo,"siblings	: 8"
+BBBP,440,/proc/cpuinfo,"core id		: 1"
+BBBP,441,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,442,/proc/cpuinfo,"apicid		: 3"
+BBBP,443,/proc/cpuinfo,"initial apicid	: 3"
+BBBP,444,/proc/cpuinfo,"fpu		: yes"
+BBBP,445,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,446,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,447,/proc/cpuinfo,"wp		: yes"
+BBBP,448,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,449,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,450,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,451,/proc/cpuinfo,"clflush size	: 64"
+BBBP,452,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,453,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,454,/proc/cpuinfo,"power management:"
+BBBP,455,/proc/cpuinfo,""
+BBBP,456,/proc/cpuinfo,"processor	: 6"
+BBBP,457,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,458,/proc/cpuinfo,"cpu family	: 6"
+BBBP,459,/proc/cpuinfo,"model		: 142"
+BBBP,460,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,461,/proc/cpuinfo,"stepping	: 10"
+BBBP,462,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,463,/proc/cpuinfo,"cpu MHz		: 3084.983"
+BBBP,464,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,465,/proc/cpuinfo,"physical id	: 0"
+BBBP,466,/proc/cpuinfo,"siblings	: 8"
+BBBP,467,/proc/cpuinfo,"core id		: 2"
+BBBP,468,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,469,/proc/cpuinfo,"apicid		: 5"
+BBBP,470,/proc/cpuinfo,"initial apicid	: 5"
+BBBP,471,/proc/cpuinfo,"fpu		: yes"
+BBBP,472,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,473,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,474,/proc/cpuinfo,"wp		: yes"
+BBBP,475,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,476,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,477,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,478,/proc/cpuinfo,"clflush size	: 64"
+BBBP,479,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,480,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,481,/proc/cpuinfo,"power management:"
+BBBP,482,/proc/cpuinfo,""
+BBBP,483,/proc/cpuinfo,"processor	: 7"
+BBBP,484,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,485,/proc/cpuinfo,"cpu family	: 6"
+BBBP,486,/proc/cpuinfo,"model		: 142"
+BBBP,487,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz"
+BBBP,488,/proc/cpuinfo,"stepping	: 10"
+BBBP,489,/proc/cpuinfo,"microcode	: 0xca"
+BBBP,490,/proc/cpuinfo,"cpu MHz		: 3225.780"
+BBBP,491,/proc/cpuinfo,"cache size	: 6144 KB"
+BBBP,492,/proc/cpuinfo,"physical id	: 0"
+BBBP,493,/proc/cpuinfo,"siblings	: 8"
+BBBP,494,/proc/cpuinfo,"core id		: 3"
+BBBP,495,/proc/cpuinfo,"cpu cores	: 4"
+BBBP,496,/proc/cpuinfo,"apicid		: 7"
+BBBP,497,/proc/cpuinfo,"initial apicid	: 7"
+BBBP,498,/proc/cpuinfo,"fpu		: yes"
+BBBP,499,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,500,/proc/cpuinfo,"cpuid level	: 22"
+BBBP,501,/proc/cpuinfo,"wp		: yes"
+BBBP,502,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d"
+BBBP,503,/proc/cpuinfo,"bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit"
+BBBP,504,/proc/cpuinfo,"bogomips	: 3600.00"
+BBBP,505,/proc/cpuinfo,"clflush size	: 64"
+BBBP,506,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,507,/proc/cpuinfo,"address sizes	: 39 bits physical, 48 bits virtual"
+BBBP,508,/proc/cpuinfo,"power management:"
+BBBP,509,/proc/cpuinfo,""
+BBBP,510,/proc/meminfo
+BBBP,511,/proc/meminfo,"MemTotal:        8031228 kB"
+BBBP,512,/proc/meminfo,"MemFree:          661056 kB"
+BBBP,513,/proc/meminfo,"MemAvailable:    3447048 kB"
+BBBP,514,/proc/meminfo,"Buffers:          485052 kB"
+BBBP,515,/proc/meminfo,"Cached:          2852112 kB"
+BBBP,516,/proc/meminfo,"SwapCached:       104416 kB"
+BBBP,517,/proc/meminfo,"Active:          4575376 kB"
+BBBP,518,/proc/meminfo,"Inactive:        2143776 kB"
+BBBP,519,/proc/meminfo,"Active(anon):    2975196 kB"
+BBBP,520,/proc/meminfo,"Inactive(anon):   785008 kB"
+BBBP,521,/proc/meminfo,"Active(file):    1600180 kB"
+BBBP,522,/proc/meminfo,"Inactive(file):  1358768 kB"
+BBBP,523,/proc/meminfo,"Unevictable:       93100 kB"
+BBBP,524,/proc/meminfo,"Mlocked:              64 kB"
+BBBP,525,/proc/meminfo,"SwapTotal:       2097148 kB"
+BBBP,526,/proc/meminfo,"SwapFree:        1980684 kB"
+BBBP,527,/proc/meminfo,"Dirty:               320 kB"
+BBBP,528,/proc/meminfo,"Writeback:             0 kB"
+BBBP,529,/proc/meminfo,"AnonPages:       3371624 kB"
+BBBP,530,/proc/meminfo,"Mapped:           778496 kB"
+BBBP,531,/proc/meminfo,"Shmem:            378220 kB"
+BBBP,532,/proc/meminfo,"KReclaimable:     236092 kB"
+BBBP,533,/proc/meminfo,"Slab:             390168 kB"
+BBBP,534,/proc/meminfo,"SReclaimable:     236092 kB"
+BBBP,535,/proc/meminfo,"SUnreclaim:       154076 kB"
+BBBP,536,/proc/meminfo,"KernelStack:       18928 kB"
+BBBP,537,/proc/meminfo,"PageTables:        60780 kB"
+BBBP,538,/proc/meminfo,"NFS_Unstable:          0 kB"
+BBBP,539,/proc/meminfo,"Bounce:                0 kB"
+BBBP,540,/proc/meminfo,"WritebackTmp:          0 kB"
+BBBP,541,/proc/meminfo,"CommitLimit:     6112760 kB"
+BBBP,542,/proc/meminfo,"Committed_AS:   10440616 kB"
+BBBP,543,/proc/meminfo,"VmallocTotal:   34359738367 kB"
+BBBP,544,/proc/meminfo,"VmallocUsed:       36884 kB"
+BBBP,545,/proc/meminfo,"VmallocChunk:          0 kB"
+BBBP,546,/proc/meminfo,"Percpu:             7648 kB"
+BBBP,547,/proc/meminfo,"HardwareCorrupted:     0 kB"
+BBBP,548,/proc/meminfo,"AnonHugePages:         0 kB"
+BBBP,549,/proc/meminfo,"ShmemHugePages:        0 kB"
+BBBP,550,/proc/meminfo,"ShmemPmdMapped:        0 kB"
+BBBP,551,/proc/meminfo,"CmaTotal:              0 kB"
+BBBP,552,/proc/meminfo,"CmaFree:               0 kB"
+BBBP,553,/proc/meminfo,"HugePages_Total:       0"
+BBBP,554,/proc/meminfo,"HugePages_Free:        0"
+BBBP,555,/proc/meminfo,"HugePages_Rsvd:        0"
+BBBP,556,/proc/meminfo,"HugePages_Surp:        0"
+BBBP,557,/proc/meminfo,"Hugepagesize:       2048 kB"
+BBBP,558,/proc/meminfo,"Hugetlb:               0 kB"
+BBBP,559,/proc/meminfo,"DirectMap4k:      414092 kB"
+BBBP,560,/proc/meminfo,"DirectMap2M:     7854080 kB"
+BBBP,561,/proc/meminfo,"DirectMap1G:     1048576 kB"
+BBBP,562,/proc/stat
+BBBP,563,/proc/stat,"cpu  1687640 3473 458821 3156582 36363 0 164063 0 0 0"
+BBBP,564,/proc/stat,"cpu0 207169 333 58015 3104720 35456 0 86124 0 0 0"
+BBBP,565,/proc/stat,"cpu1 211223 496 57825 7503 71 0 36896 0 0 0"
+BBBP,566,/proc/stat,"cpu2 209782 420 56974 7452 27 0 18929 0 0 0"
+BBBP,567,/proc/stat,"cpu3 214244 344 56722 7437 81 0 8240 0 0 0"
+BBBP,568,/proc/stat,"cpu4 212099 895 58795 7487 73 0 3690 0 0 0"
+BBBP,569,/proc/stat,"cpu5 212184 355 56182 7499 29 0 5234 0 0 0"
+BBBP,570,/proc/stat,"cpu6 211419 328 56859 6909 620 0 2091 0 0 0"
+BBBP,571,/proc/stat,"cpu7 209516 299 57446 7572 2 0 2855 0 0 0"
+BBBP,572,/proc/stat,"intr 56754618 8 40672 0 0 0 0 0 0 1 377 0 0 0 0 0 0 0 6678115 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 282010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1520 327565 27 3641294 305 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,573,/proc/stat," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,574,/proc/stat,"ctxt 162588441"
+BBBP,575,/proc/stat,"btime 1580212023"
+BBBP,576,/proc/stat,"processes 29730"
+BBBP,577,/proc/stat,"procs_running 1"
+BBBP,578,/proc/stat,"procs_blocked 0"
+BBBP,579,/proc/stat,"softirq 65123270 2442353 22276642 146 174010 339139 105 2399852 24776905 8843 12705275"
+BBBP,580,/proc/version
+BBBP,581,/proc/version,"Linux version 5.3.0-26-generic (buildd@lgw01-amd64-039) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #28~18.04.1-Ubuntu SMP Wed Dec 18 16:40:14 UTC 2019"
+BBBP,582,/proc/net/dev
+BBBP,583,/proc/net/dev,"Inter-|   Receive                                                |  Transmit"
+BBBP,584,/proc/net/dev," face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed"
+BBBP,585,/proc/net/dev,"    lo: 17000351  159527    0    0    0     0          0         0 17000351  159527    0    0    0     0       0          0"
+BBBP,586,/proc/net/dev,"wlp2s0: 1884643864 1536326    0    0    0     0          0         0 141111242  698066    0    0    0     0       0          0"
+BBBP,587,/proc/diskinfo
+BBBP,588,/proc/diskstats
+BBBP,589,/proc/diskstats,"   7       0 loop0 63 0 2160 3117 0 0 0 0 0 96 3060 0 0 0 0"
+BBBP,590,/proc/diskstats,"   7       1 loop1 12322 0 26644 150203 0 0 0 0 0 1788 144684 0 0 0 0"
+BBBP,591,/proc/diskstats,"   7       2 loop2 347 0 2718 4033 0 0 0 0 0 232 3892 0 0 0 0"
+BBBP,592,/proc/diskstats,"   7       3 loop3 86 0 2190 1071 0 0 0 0 0 132 1008 0 0 0 0"
+BBBP,593,/proc/diskstats,"   7       4 loop4 100 0 2360 3703 0 0 0 0 0 104 3668 0 0 0 0"
+BBBP,594,/proc/diskstats,"   7       5 loop5 128 0 2256 1972 0 0 0 0 0 152 1920 0 0 0 0"
+BBBP,595,/proc/diskstats,"   7       6 loop6 154 0 2332 1272 0 0 0 0 0 144 1212 0 0 0 0"
+BBBP,596,/proc/diskstats,"   7       7 loop7 95 0 2224 3734 0 0 0 0 0 104 3628 0 0 0 0"
+BBBP,597,/proc/diskstats,"   8       0 sda 74074 24150 5711269 1927374 231051 328270 13160842 5140201 0 346912 6630904 0 0 0 0"
+BBBP,598,/proc/diskstats,"   8       1 sda1 601 453 11259 16039 2 0 2 4 0 516 15056 0 0 0 0"
+BBBP,599,/proc/diskstats,"   8       2 sda2 32 0 1136 266 0 0 0 0 0 72 220 0 0 0 0"
+BBBP,600,/proc/diskstats,"   8       3 sda3 42 0 4312 1031 0 0 0 0 0 112 968 0 0 0 0"
+BBBP,601,/proc/diskstats,"   8       4 sda4 44 0 4160 2112 0 0 0 0 0 108 2036 0 0 0 0"
+BBBP,602,/proc/diskstats,"   8       5 sda5 73277 23697 5686034 1907593 228590 328270 13160840 5003755 0 345060 6480008 0 0 0 0"
+BBBP,603,/proc/diskstats,"   7       8 loop8 71 0 2188 5687 0 0 0 0 0 120 5636 0 0 0 0"
+BBBP,604,/proc/diskstats,"   7       9 loop9 502 0 1594 784 0 0 0 0 0 212 704 0 0 0 0"
+BBBP,605,/proc/diskstats,"   7      10 loop10 102 0 2238 3305 0 0 0 0 0 112 3236 0 0 0 0"
+BBBP,606,/proc/diskstats,"   7      11 loop11 121 0 2276 1407 0 0 0 0 0 104 1356 0 0 0 0"
+BBBP,607,/proc/diskstats,"   7      12 loop12 206 0 1002 2034 0 0 0 0 0 148 1968 0 0 0 0"
+BBBP,608,/proc/diskstats,"   7      13 loop13 107 0 2230 9252 0 0 0 0 0 144 9184 0 0 0 0"
+BBBP,609,/proc/diskstats,"   7      14 loop14 19 0 92 239 0 0 0 0 0 40 224 0 0 0 0"
+BBBP,610,/proc/diskstats,"   7      15 loop15 58 0 266 1229 0 0 0 0 0 124 1176 0 0 0 0"
+BBBP,611,/proc/diskstats,"   7      16 loop16 59 0 2106 1706 0 0 0 0 0 104 1636 0 0 0 0"
+BBBP,612,/proc/diskstats,"   7      17 loop17 36 0 656 415 0 0 0 0 0 68 380 0 0 0 0"
+BBBP,613,/proc/diskstats,"   7      18 loop18 41 0 232 1483 0 0 0 0 0 104 1444 0 0 0 0"
+BBBP,614,/proc/diskstats,"   7      19 loop19 180 0 2394 2906 0 0 0 0 0 180 2816 0 0 0 0"
+BBBP,615,/proc/diskstats,"   7      20 loop20 132 0 2288 4189 0 0 0 0 0 148 4120 0 0 0 0"
+BBBP,616,/proc/diskstats,"   7      21 loop21 119 0 2272 4119 0 0 0 0 0 96 4064 0 0 0 0"
+BBBP,617,/proc/diskstats,"   7      22 loop22 507 0 1604 2540 0 0 0 0 0 216 2468 0 0 0 0"
+BBBP,618,/proc/diskstats,"   7      23 loop23 144 0 2322 5269 0 0 0 0 0 188 5196 0 0 0 0"
+BBBP,619,/proc/diskstats,"   7      24 loop24 157 0 898 5858 0 0 0 0 0 132 5624 0 0 0 0"
+BBBP,620,/proc/diskstats,"   7      25 loop25 121 0 2258 4403 0 0 0 0 0 124 4340 0 0 0 0"
+BBBP,621,/proc/diskstats,"   7      26 loop26 20 0 94 294 0 0 0 0 0 32 280 0 0 0 0"
+BBBP,622,/proc/diskstats,"   7      27 loop27 53 0 256 1352 0 0 0 0 0 104 1296 0 0 0 0"
+BBBP,623,/proc/diskstats,"   7      28 loop28 41 0 232 1480 0 0 0 0 0 104 1432 0 0 0 0"
+BBBP,624,/proc/diskstats,"   7      29 loop29 242 0 1218 2411 0 0 0 0 0 164 2352 0 0 0 0"
+BBBP,625,/proc/diskstats,"   7      30 loop30 36 0 656 2540 0 0 0 0 0 92 2504 0 0 0 0"
+BBBP,626,/proc/diskstats,"   7      31 loop31 103 0 350 2404 0 0 0 0 0 80 2232 0 0 0 0"
+BBBP,627,/proc/diskstats,"   7      32 loop32 208459 0 418914 4107577 0 0 0 0 0 20160 3926576 0 0 0 0"
+BBBP,628,/proc/diskstats,"   7      33 loop33 210 0 1010 8 0 0 0 0 0 72 0 0 0 0 0"
+BBBP,629,/proc/diskstats,"   7      34 loop34 112 0 2214 4 0 0 0 0 0 56 0 0 0 0 0"
+BBBP,630,/sbin/multipath
+BBBP,631,/dev/mapper
+BBBP,632,/dev/mapper,"total 0"
+BBBP,633,/dev/mapper,"crw------- 1 root root 10, 236 Jan 28 17:17 control"
+BBBP,634,/dev/mpath
+BBBP,635,/dev/dm-*
+BBBP,636,/dev/md*
+BBBP,637,/dev/sd*
+BBBP,638,/dev/sd*,"brw-rw---- 1 root disk 8, 0 Jan 28 17:17 /dev/sda"
+BBBP,639,/dev/sd*,"brw-rw---- 1 root disk 8, 1 Jan 28 17:17 /dev/sda1"
+BBBP,640,/dev/sd*,"brw-rw---- 1 root disk 8, 2 Jan 28 17:17 /dev/sda2"
+BBBP,641,/dev/sd*,"brw-rw---- 1 root disk 8, 3 Jan 28 17:17 /dev/sda3"
+BBBP,642,/dev/sd*,"brw-rw---- 1 root disk 8, 4 Jan 28 17:17 /dev/sda4"
+BBBP,643,/dev/sd*,"brw-rw---- 1 root disk 8, 5 Jan 28 17:17 /dev/sda5"
+BBBP,644,/proc/partitions
+BBBP,645,/proc/partitions,"major minor  #blocks  name"
+BBBP,646,/proc/partitions,""
+BBBP,647,/proc/partitions,"   7        1      91228 loop1"
+BBBP,648,/proc/partitions,"   7        2     207772 loop2"
+BBBP,649,/proc/partitions,"   7        3     189264 loop3"
+BBBP,650,/proc/partitions,"   7        4      86340 loop4"
+BBBP,651,/proc/partitions,"   7        5      91240 loop5"
+BBBP,652,/proc/partitions,"   7        6     163996 loop6"
+BBBP,653,/proc/partitions,"   7        7      85936 loop7"
+BBBP,654,/proc/partitions,"   8        0  976762584 sda"
+BBBP,655,/proc/partitions,"   8        1     266240 sda1"
+BBBP,656,/proc/partitions,"   8        2      16384 sda2"
+BBBP,657,/proc/partitions,"   8        3  486956666 sda3"
+BBBP,658,/proc/partitions,"   8        4     819200 sda4"
+BBBP,659,/proc/partitions,"   8        5  488701952 sda5"
+BBBP,660,/proc/partitions,"   7        8      75748 loop8"
+BBBP,661,/proc/partitions,"   7        9      45240 loop9"
+BBBP,662,/proc/partitions,"   7       10     354200 loop10"
+BBBP,663,/proc/partitions,"   7       11     460984 loop11"
+BBBP,664,/proc/partitions,"   7       12      55952 loop12"
+BBBP,665,/proc/partitions,"   7       13     356200 loop13"
+BBBP,666,/proc/partitions,"   7       14       1008 loop14"
+BBBP,667,/proc/partitions,"   7       15       4300 loop15"
+BBBP,668,/proc/partitions,"   7       16     229932 loop16"
+BBBP,669,/proc/partitions,"   7       17      15100 loop17"
+BBBP,670,/proc/partitions,"   7       18       3736 loop18"
+BBBP,671,/proc/partitions,"   7       19     148212 loop19"
+BBBP,672,/proc/partitions,"   7       20     160440 loop20"
+BBBP,673,/proc/partitions,"   7       21     457388 loop21"
+BBBP,674,/proc/partitions,"   7       22      45960 loop22"
+BBBP,675,/proc/partitions,"   7       24      54968 loop24"
+BBBP,676,/proc/partitions,"   7       25     625016 loop25"
+BBBP,677,/proc/partitions,"   7       26        956 loop26"
+BBBP,678,/proc/partitions,"   7       27       4120 loop27"
+BBBP,679,/proc/partitions,"   7       28       3736 loop28"
+BBBP,680,/proc/partitions,"   7       29       4056 loop29"
+BBBP,681,/proc/partitions,"   7       30      15100 loop30"
+BBBP,682,/proc/partitions,"   7       31       4056 loop31"
+BBBP,683,/proc/partitions,"   7       32     626976 loop32"
+BBBP,684,/proc/partitions,"   7       33      55952 loop33"
+BBBP,685,/proc/partitions,"   7       34     229984 loop34"
+BBBP,686,/proc/1/stat
+BBBP,687,/proc/1/stat,"1 (systemd) S 0 1 1 0 -1 4194560 46844 151946102 87 5117 585 4554 1108831 290131 20 0 1 0 13 231362560 2451 18446744073709551615 1 1 0 0 0 0 671173123 4096 1260 0 0 0 17 1 0 0 1335 0 0 0 0 0 0 0 0 0 0"
+BBBP,688,/proc/1/statm
+BBBP,689,/proc/1/statm,"56485 2451 1699 334 0 4835 0"
+BBBP,690,/proc/net/rpc/nfs
+BBBP,691,/proc/net/rpc/nfsd
+BBBP,692,/proc/modules
+BBBP,693,/proc/modules,"binfmt_misc 24576 1 - Live 0x0000000000000000"
+BBBP,694,/proc/modules,"usbhid 53248 0 - Live 0x0000000000000000"
+BBBP,695,/proc/modules,"rfcomm 81920 4 - Live 0x0000000000000000"
+BBBP,696,/proc/modules,"ip6table_filter 16384 0 - Live 0x0000000000000000"
+BBBP,697,/proc/modules,"ip6_tables 32768 1 ip6table_filter, Live 0x0000000000000000"
+BBBP,698,/proc/modules,"iptable_filter 16384 0 - Live 0x0000000000000000"
+BBBP,699,/proc/modules,"bpfilter 24576 0 - Live 0x0000000000000000"
+BBBP,700,/proc/modules,"aufs 258048 0 - Live 0x0000000000000000"
+BBBP,701,/proc/modules,"ccm 20480 0 - Live 0x0000000000000000"
+BBBP,702,/proc/modules,"overlay 114688 0 - Live 0x0000000000000000"
+BBBP,703,/proc/modules,"cmac 16384 1 - Live 0x0000000000000000"
+BBBP,704,/proc/modules,"bnep 24576 2 - Live 0x0000000000000000"
+BBBP,705,/proc/modules,"nls_iso8859_1 16384 1 - Live 0x0000000000000000"
+BBBP,706,/proc/modules,"uvcvideo 94208 0 - Live 0x0000000000000000"
+BBBP,707,/proc/modules,"ath3k 24576 0 - Live 0x0000000000000000"
+BBBP,708,/proc/modules,"btusb 57344 0 - Live 0x0000000000000000"
+BBBP,709,/proc/modules,"videobuf2_vmalloc 20480 1 uvcvideo, Live 0x0000000000000000"
+BBBP,710,/proc/modules,"videobuf2_memops 20480 1 videobuf2_vmalloc, Live 0x0000000000000000"
+BBBP,711,/proc/modules,"btrtl 20480 1 btusb, Live 0x0000000000000000"
+BBBP,712,/proc/modules,"videobuf2_v4l2 24576 1 uvcvideo, Live 0x0000000000000000"
+BBBP,713,/proc/modules,"btbcm 16384 1 btusb, Live 0x0000000000000000"
+BBBP,714,/proc/modules,"btintel 24576 1 btusb, Live 0x0000000000000000"
+BBBP,715,/proc/modules,"videobuf2_common 49152 2 uvcvideo,videobuf2_v4l2, Live 0x0000000000000000"
+BBBP,716,/proc/modules,"videodev 208896 3 uvcvideo,videobuf2_v4l2,videobuf2_common, Live 0x0000000000000000"
+BBBP,717,/proc/modules,"bluetooth 573440 34 rfcomm,bnep,ath3k,btusb,btrtl,btbcm,btintel, Live 0x0000000000000000"
+BBBP,718,/proc/modules,"ecdh_generic 16384 2 bluetooth, Live 0x0000000000000000"
+BBBP,719,/proc/modules,"ecc 32768 1 ecdh_generic, Live 0x0000000000000000"
+BBBP,720,/proc/modules,"mc 53248 4 uvcvideo,videobuf2_v4l2,videobuf2_common,videodev, Live 0x0000000000000000"
+BBBP,721,/proc/modules,"joydev 28672 0 - Live 0x0000000000000000"
+BBBP,722,/proc/modules,"spi_pxa2xx_platform 28672 0 - Live 0x0000000000000000"
+BBBP,723,/proc/modules,"hid_multitouch 28672 0 - Live 0x0000000000000000"
+BBBP,724,/proc/modules,"8250_dw 20480 0 - Live 0x0000000000000000"
+BBBP,725,/proc/modules,"dw_dmac 16384 0 - Live 0x0000000000000000"
+BBBP,726,/proc/modules,"hid_generic 16384 0 - Live 0x0000000000000000"
+BBBP,727,/proc/modules,"dw_dmac_core 28672 1 dw_dmac, Live 0x0000000000000000"
+BBBP,728,/proc/modules,"mei_hdcp 24576 0 - Live 0x0000000000000000"
+BBBP,729,/proc/modules,"x86_pkg_temp_thermal 20480 0 - Live 0x0000000000000000"
+BBBP,730,/proc/modules,"intel_powerclamp 20480 0 - Live 0x0000000000000000"
+BBBP,731,/proc/modules,"intel_rapl_msr 20480 0 - Live 0x0000000000000000"
+BBBP,732,/proc/modules,"snd_soc_skl 106496 0 - Live 0x0000000000000000"
+BBBP,733,/proc/modules,"coretemp 20480 0 - Live 0x0000000000000000"
+BBBP,734,/proc/modules,"snd_soc_hdac_hda 24576 1 snd_soc_skl, Live 0x0000000000000000"
+BBBP,735,/proc/modules,"snd_hda_ext_core 28672 2 snd_soc_skl,snd_soc_hdac_hda, Live 0x0000000000000000"
+BBBP,736,/proc/modules,"kvm_intel 241664 0 - Live 0x0000000000000000"
+BBBP,737,/proc/modules,"snd_soc_skl_ipc 61440 1 snd_soc_skl, Live 0x0000000000000000"
+BBBP,738,/proc/modules,"kvm 651264 1 kvm_intel, Live 0x0000000000000000"
+BBBP,739,/proc/modules,"snd_hda_codec_hdmi 57344 1 - Live 0x0000000000000000"
+BBBP,740,/proc/modules,"irqbypass 16384 1 kvm, Live 0x0000000000000000"
+BBBP,741,/proc/modules,"crct10dif_pclmul 16384 1 - Live 0x0000000000000000"
+BBBP,742,/proc/modules,"crc32_pclmul 16384 0 - Live 0x0000000000000000"
+BBBP,743,/proc/modules,"snd_soc_sst_ipc 20480 1 snd_soc_skl_ipc, Live 0x0000000000000000"
+BBBP,744,/proc/modules,"snd_soc_sst_dsp 36864 1 snd_soc_skl_ipc, Live 0x0000000000000000"
+BBBP,745,/proc/modules,"snd_hda_codec_realtek 118784 1 - Live 0x0000000000000000"
+BBBP,746,/proc/modules,"snd_soc_acpi_intel_match 28672 1 snd_soc_skl, Live 0x0000000000000000"
+BBBP,747,/proc/modules,"snd_soc_acpi 16384 2 snd_soc_skl,snd_soc_acpi_intel_match, Live 0x0000000000000000"
+BBBP,748,/proc/modules,"snd_hda_codec_generic 81920 1 snd_hda_codec_realtek, Live 0x0000000000000000"
+BBBP,749,/proc/modules,"snd_soc_core 237568 2 snd_soc_skl,snd_soc_hdac_hda, Live 0x0000000000000000"
+BBBP,750,/proc/modules,"ghash_clmulni_intel 16384 0 - Live 0x0000000000000000"
+BBBP,751,/proc/modules,"ledtrig_audio 16384 2 snd_hda_codec_realtek,snd_hda_codec_generic, Live 0x0000000000000000"
+BBBP,752,/proc/modules,"snd_compress 24576 1 snd_soc_core, Live 0x0000000000000000"
+BBBP,753,/proc/modules,"ac97_bus 16384 1 snd_soc_core, Live 0x0000000000000000"
+BBBP,754,/proc/modules,"snd_pcm_dmaengine 16384 1 snd_soc_core, Live 0x0000000000000000"
+BBBP,755,/proc/modules,"aesni_intel 372736 2 - Live 0x0000000000000000"
+BBBP,756,/proc/modules,"snd_hda_intel 49152 3 - Live 0x0000000000000000"
+BBBP,757,/proc/modules,"aes_x86_64 20480 1 aesni_intel, Live 0x0000000000000000"
+BBBP,758,/proc/modules,"snd_hda_codec 131072 5 snd_soc_hdac_hda,snd_hda_codec_hdmi,snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel, Live 0x0000000000000000"
+BBBP,759,/proc/modules,"snd_hda_core 90112 8 snd_soc_skl,snd_soc_hdac_hda,snd_hda_ext_core,snd_hda_codec_hdmi,snd_hda_codec_realtek,snd_hda_codec_generic,snd_hda_intel,snd_hda_codec, Live 0x0000000000000000"
+BBBP,760,/proc/modules,"ath9k 151552 0 - Live 0x0000000000000000"
+BBBP,761,/proc/modules,"snd_hwdep 20480 1 snd_hda_codec, Live 0x0000000000000000"
+BBBP,762,/proc/modules,"snd_pcm 102400 8 snd_soc_skl,snd_hda_ext_core,snd_hda_codec_hdmi,snd_soc_core,snd_pcm_dmaengine,snd_hda_intel,snd_hda_codec,snd_hda_core, Live 0x0000000000000000"
+BBBP,763,/proc/modules,"crypto_simd 16384 1 aesni_intel, Live 0x0000000000000000"
+BBBP,764,/proc/modules,"snd_seq_midi 20480 0 - Live 0x0000000000000000"
+BBBP,765,/proc/modules,"ath9k_common 36864 1 ath9k, Live 0x0000000000000000"
+BBBP,766,/proc/modules,"snd_seq_midi_event 16384 1 snd_seq_midi, Live 0x0000000000000000"
+BBBP,767,/proc/modules,"snd_rawmidi 36864 1 snd_seq_midi, Live 0x0000000000000000"
+BBBP,768,/proc/modules,"snd_seq 69632 2 snd_seq_midi,snd_seq_midi_event, Live 0x0000000000000000"
+BBBP,769,/proc/modules,"ath9k_hw 475136 2 ath9k,ath9k_common, Live 0x0000000000000000"
+BBBP,770,/proc/modules,"ath 36864 3 ath9k,ath9k_common,ath9k_hw, Live 0x0000000000000000"
+BBBP,771,/proc/modules,"cryptd 24576 2 ghash_clmulni_intel,crypto_simd, Live 0x0000000000000000"
+BBBP,772,/proc/modules,"mac80211 847872 1 ath9k, Live 0x0000000000000000"
+BBBP,773,/proc/modules,"glue_helper 16384 1 aesni_intel, Live 0x0000000000000000"
+BBBP,774,/proc/modules,"snd_seq_device 16384 3 snd_seq_midi,snd_rawmidi,snd_seq, Live 0x0000000000000000"
+BBBP,775,/proc/modules,"intel_cstate 20480 0 - Live 0x0000000000000000"
+BBBP,776,/proc/modules,"intel_rapl_perf 20480 0 - Live 0x0000000000000000"
+BBBP,777,/proc/modules,"snd_timer 36864 2 snd_pcm,snd_seq, Live 0x0000000000000000"
+BBBP,778,/proc/modules,"cfg80211 704512 4 ath9k,ath9k_common,ath,mac80211, Live 0x0000000000000000"
+BBBP,779,/proc/modules,"i915 1937408 21 - Live 0x0000000000000000"
+BBBP,780,/proc/modules,"snd 86016 19 snd_hda_codec_hdmi,snd_hda_codec_realtek,snd_hda_codec_generic,snd_soc_core,snd_compress,snd_hda_intel,snd_hda_codec,snd_hwdep,snd_pcm,snd_rawmidi,snd_seq,snd_seq_device,snd_timer, Live 0x0000000000000000"
+BBBP,781,/proc/modules,"soundcore 16384 1 snd, Live 0x0000000000000000"
+BBBP,782,/proc/modules,"libarc4 16384 1 mac80211, Live 0x0000000000000000"
+BBBP,783,/proc/modules,"drm_kms_helper 180224 1 i915, Live 0x0000000000000000"
+BBBP,784,/proc/modules,"input_leds 16384 0 - Live 0x0000000000000000"
+BBBP,785,/proc/modules,"drm 483328 8 i915,drm_kms_helper, Live 0x0000000000000000"
+BBBP,786,/proc/modules,"idma64 20480 0 - Live 0x0000000000000000"
+BBBP,787,/proc/modules,"i2c_algo_bit 16384 1 i915, Live 0x0000000000000000"
+BBBP,788,/proc/modules,"intel_xhci_usb_role_switch 16384 0 - Live 0x0000000000000000"
+BBBP,789,/proc/modules,"fb_sys_fops 16384 1 drm_kms_helper, Live 0x0000000000000000"
+BBBP,790,/proc/modules,"asus_nb_wmi 28672 0 - Live 0x0000000000000000"
+BBBP,791,/proc/modules,"syscopyarea 16384 1 drm_kms_helper, Live 0x0000000000000000"
+BBBP,792,/proc/modules,"asus_wmi 32768 1 asus_nb_wmi, Live 0x0000000000000000"
+BBBP,793,/proc/modules,"sysfillrect 16384 1 drm_kms_helper, Live 0x0000000000000000"
+BBBP,794,/proc/modules,"serio_raw 20480 0 - Live 0x0000000000000000"
+BBBP,795,/proc/modules,"virt_dma 20480 1 idma64, Live 0x0000000000000000"
+BBBP,796,/proc/modules,"sparse_keymap 16384 1 asus_wmi, Live 0x0000000000000000"
+BBBP,797,/proc/modules,"wmi_bmof 16384 0 - Live 0x0000000000000000"
+BBBP,798,/proc/modules,"roles 16384 1 intel_xhci_usb_role_switch, Live 0x0000000000000000"
+BBBP,799,/proc/modules,"intel_lpss_pci 20480 2 - Live 0x0000000000000000"
+BBBP,800,/proc/modules,"sysimgblt 16384 1 drm_kms_helper, Live 0x0000000000000000"
+BBBP,801,/proc/modules,"intel_lpss 16384 1 intel_lpss_pci, Live 0x0000000000000000"
+BBBP,802,/proc/modules,"processor_thermal_device 20480 0 - Live 0x0000000000000000"
+BBBP,803,/proc/modules,"mei_me 40960 1 - Live 0x0000000000000000"
+BBBP,804,/proc/modules,"mei 102400 3 mei_hdcp,mei_me, Live 0x0000000000000000"
+BBBP,805,/proc/modules,"int3403_thermal 16384 0 - Live 0x0000000000000000"
+BBBP,806,/proc/modules,"intel_rapl_common 24576 2 intel_rapl_msr,processor_thermal_device, Live 0x0000000000000000"
+BBBP,807,/proc/modules,"int340x_thermal_zone 16384 2 processor_thermal_device,int3403_thermal, Live 0x0000000000000000"
+BBBP,808,/proc/modules,"intel_soc_dts_iosf 20480 1 processor_thermal_device, Live 0x0000000000000000"
+BBBP,809,/proc/modules,"intel_pch_thermal 16384 0 - Live 0x0000000000000000"
+BBBP,810,/proc/modules,"int3400_thermal 20480 0 - Live 0x0000000000000000"
+BBBP,811,/proc/modules,"acpi_thermal_rel 16384 1 int3400_thermal, Live 0x0000000000000000"
+BBBP,812,/proc/modules,"asus_wireless 20480 0 - Live 0x0000000000000000"
+BBBP,813,/proc/modules,"mac_hid 16384 0 - Live 0x0000000000000000"
+BBBP,814,/proc/modules,"acpi_pad 184320 0 - Live 0x0000000000000000"
+BBBP,815,/proc/modules,"sch_fq_codel 20480 1 - Live 0x0000000000000000"
+BBBP,816,/proc/modules,"parport_pc 36864 0 - Live 0x0000000000000000"
+BBBP,817,/proc/modules,"ppdev 24576 0 - Live 0x0000000000000000"
+BBBP,818,/proc/modules,"lp 20480 0 - Live 0x0000000000000000"
+BBBP,819,/proc/modules,"parport 53248 3 parport_pc,ppdev,lp, Live 0x0000000000000000"
+BBBP,820,/proc/modules,"ip_tables 32768 1 iptable_filter, Live 0x0000000000000000"
+BBBP,821,/proc/modules,"x_tables 40960 4 ip6table_filter,ip6_tables,iptable_filter,ip_tables, Live 0x0000000000000000"
+BBBP,822,/proc/modules,"autofs4 45056 2 - Live 0x0000000000000000"
+BBBP,823,/proc/modules,"sdhci_pci 45056 0 - Live 0x0000000000000000"
+BBBP,824,/proc/modules,"cqhci 28672 1 sdhci_pci, Live 0x0000000000000000"
+BBBP,825,/proc/modules,"ahci 40960 2 - Live 0x0000000000000000"
+BBBP,826,/proc/modules,"sdhci 57344 1 sdhci_pci, Live 0x0000000000000000"
+BBBP,827,/proc/modules,"i2c_hid 28672 0 - Live 0x0000000000000000"
+BBBP,828,/proc/modules,"libahci 32768 1 ahci, Live 0x0000000000000000"
+BBBP,829,/proc/modules,"wmi 32768 2 asus_wmi,wmi_bmof, Live 0x0000000000000000"
+BBBP,830,/proc/modules,"hid 131072 4 usbhid,hid_multitouch,hid_generic,i2c_hid, Live 0x0000000000000000"
+BBBP,831,/proc/modules,"pinctrl_sunrisepoint 28672 0 - Live 0x0000000000000000"
+BBBP,832,/proc/modules,"video 49152 2 i915,asus_wmi, Live 0x0000000000000000"
+BBBP,833,/proc/modules,"pinctrl_intel 28672 1 pinctrl_sunrisepoint, Live 0x0000000000000000"
+BBBP,834,ifconfig
+BBBP,835,ifconfig,"lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536"
+BBBP,836,ifconfig,"        inet 127.0.0.1  netmask 255.0.0.0"
+BBBP,837,ifconfig,"        inet6 ::1  prefixlen 128  scopeid 0x10<host>"
+BBBP,838,ifconfig,"        loop  txqueuelen 1000  (Local Loopback)"
+BBBP,839,ifconfig,"        RX packets 159527  bytes 17000351 (17.0 MB)"
+BBBP,840,ifconfig,"        RX errors 0  dropped 0  overruns 0  frame 0"
+BBBP,841,ifconfig,"        TX packets 159527  bytes 17000351 (17.0 MB)"
+BBBP,842,ifconfig,"        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+BBBP,843,ifconfig,""
+BBBP,844,ifconfig,"wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500"
+BBBP,845,ifconfig,"        ether 00:f4:8d:31:19:51  txqueuelen 1000  (Ethernet)"
+BBBP,846,ifconfig,"        RX packets 1536326  bytes 1884643864 (1.8 GB)"
+BBBP,847,ifconfig,"        RX errors 0  dropped 0  overruns 0  frame 0"
+BBBP,848,ifconfig,"        TX packets 698066  bytes 141111242 (141.1 MB)"
+BBBP,849,ifconfig,"        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+BBBP,850,ifconfig,""
+BBBP,851,/bin/df-m
+BBBP,852,/bin/df-m,"Filesystem     1M-blocks  Used Available Use% Mounted on"
+BBBP,853,/bin/df-m,"udev                3899     0      3899   0% /dev"
+BBBP,854,/bin/df-m,"tmpfs                785     2       783   1% /run"
+BBBP,855,/bin/df-m,"ddev/sda5         468733 59824    385031  14% /"
+BBBP,856,/bin/df-m,"tmpfs               3922   107      3816   3% /dev/shm"
+BBBP,857,/bin/df-m,"tmpfs                  5     1         5   1% /run/lock"
+BBBP,858,/bin/df-m,"tmpfs               3922     0      3922   0% /sys/fs/cgroup"
+BBBP,859,/bin/df-m,"ddev/loop1            90    90         0 100% /snap/core/8268"
+BBBP,860,/bin/df-m,"ddev/loop2           203   203         0 100% /snap/vlc/1397"
+BBBP,861,/bin/df-m,"ddev/loop3           185   185         0 100% /snap/eclipse/40"
+BBBP,862,/bin/df-m,"ddev/loop6           161   161         0 100% /snap/gnome-3-28-1804/116"
+BBBP,863,/bin/df-m,"ddev/loop5            90    90         0 100% /snap/core/8039"
+BBBP,864,/bin/df-m,"ddev/loop7            84    84         0 100% /snap/simplenote/177"
+BBBP,865,/bin/df-m,"ddev/loop10          346   346         0 100% /snap/pycharm-community/172"
+BBBP,866,/bin/df-m,"ddev/loop11          451   451         0 100% /snap/pycharm-professional/179"
+BBBP,867,/bin/df-m,"ddev/loop9            45    45         0 100% /snap/gtk-common-themes/1353"
+BBBP,868,/bin/df-m,"ddev/loop15            5     5         0 100% /snap/gnome-calculator/544"
+BBBP,869,/bin/df-m,"ddev/loop14            1     1         0 100% /snap/gnome-logs/61"
+BBBP,870,/bin/df-m,"ddev/loop18            4     4         0 100% /snap/gnome-system-monitor/127"
+BBBP,871,/bin/df-m,"ddev/loop16          225   225         0 100% /snap/wine-platform-runtime/75"
+BBBP,872,/bin/df-m,"ddev/loop17           15    15         0 100% /snap/gnome-characters/375"
+BBBP,873,/bin/df-m,"ddev/loop13          348   348         0 100% /snap/pycharm-community/175"
+BBBP,874,/bin/df-m,"ddev/loop12           55    55         0 100% /snap/core18/1650"
+BBBP,875,/bin/df-m,"ddev/loop8            74    74         0 100% /snap/wine-platform-3-stable/6"
+BBBP,876,/bin/df-m,"ddev/loop25          611   611         0 100% /snap/intellij-idea-community/197"
+BBBP,877,/bin/df-m,"ddev/loop28            4     4         0 100% /snap/gnome-system-monitor/123"
+BBBP,878,/bin/df-m,"ddev/loop20          157   157         0 100% /snap/gnome-3-28-1804/110"
+BBBP,879,/bin/df-m,"ddev/loop27            5     5         0 100% /snap/gnome-calculator/406"
+BBBP,880,/bin/df-m,"ddev/loop21          447   447         0 100% /snap/pycharm-professional/176"
+BBBP,881,/bin/df-m,"ddev/loop19          145   145         0 100% /snap/postman/97"
+BBBP,882,/bin/df-m,"ddev/loop30           15    15         0 100% /snap/gnome-characters/399"
+BBBP,883,/bin/df-m,"ddev/loop31            4     4         0 100% /snap/notepad-plus-plus/222"
+BBBP,884,/bin/df-m,"ddev/loop26            1     1         0 100% /snap/gnome-logs/81"
+BBBP,885,/bin/df-m,"ddev/loop32          613   613         0 100% /snap/intellij-idea-community/202"
+BBBP,886,/bin/df-m,"ddev/loop24           54    54         0 100% /snap/electronplayer/9"
+BBBP,887,/bin/df-m,"ddev/loop22           45    45         0 100% /snap/gtk-common-themes/1440"
+BBBP,888,/bin/df-m,"ddev/sda1            256    32       225  13% /boot/efi"
+BBBP,889,/bin/df-m,"tmpfs                785     1       785   1% /run/user/1000"
+BBBP,890,/bin/df-m,"ddev/loop33           55    55         0 100% /snap/core18/1668"
+BBBP,891,/bin/df-m,"ddev/loop29            4     4         0 100% /snap/notepad-plus-plus/223"
+BBBP,892,/bin/df-m,"ddev/loop34          225   225         0 100% /snap/wine-platform-runtime/80"
+BBBP,893,/bin/df-m,"ddev/loop4            85    85         0 100% /snap/simplenote/239"
+BBBP,894,/bin/mount
+BBBP,895,/bin/mount,"sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,896,/bin/mount,"proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)"
+BBBP,897,/bin/mount,"udev on /dev type devtmpfs (rw,nosuid,relatime,size=3992076k,nr_inodes=998019,mode=755)"
+BBBP,898,/bin/mount,"devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)"
+BBBP,899,/bin/mount,"tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=803124k,mode=755)"
+BBBP,900,/bin/mount,"ddev/sda5 on / type ext4 (rw,relatime,errors=remount-ro)"
+BBBP,901,/bin/mount,"securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,902,/bin/mount,"tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)"
+BBBP,903,/bin/mount,"tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)"
+BBBP,904,/bin/mount,"tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)"
+BBBP,905,/bin/mount,"cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)"
+BBBP,906,/bin/mount,"cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)"
+BBBP,907,/bin/mount,"pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)"
+BBBP,908,/bin/mount,"efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,909,/bin/mount,"cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)"
+BBBP,910,/bin/mount,"cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)"
+BBBP,911,/bin/mount,"cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)"
+BBBP,912,/bin/mount,"cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)"
+BBBP,913,/bin/mount,"cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)"
+BBBP,914,/bin/mount,"cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)"
+BBBP,915,/bin/mount,"cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)"
+BBBP,916,/bin/mount,"cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)"
+BBBP,917,/bin/mount,"cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)"
+BBBP,918,/bin/mount,"cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)"
+BBBP,919,/bin/mount,"cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)"
+BBBP,920,/bin/mount,"systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=26,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13535)"
+BBBP,921,/bin/mount,"hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)"
+BBBP,922,/bin/mount,"configfs on /sys/kernel/config type configfs (rw,relatime)"
+BBBP,923,/bin/mount,"mqueue on /dev/mqueue type mqueue (rw,relatime)"
+BBBP,924,/bin/mount,"fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)"
+BBBP,925,/bin/mount,"debugfs on /sys/kernel/debug type debugfs (rw,relatime)"
+BBBP,926,/bin/mount,"dvar/lib/snapd/snaps/core_8268.snap on /snap/core/8268 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,927,/bin/mount,"dvar/lib/snapd/snaps/vlc_1397.snap on /snap/vlc/1397 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,928,/bin/mount,"dvar/lib/snapd/snaps/eclipse_40.snap on /snap/eclipse/40 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,929,/bin/mount,"dvar/lib/snapd/snaps/gnome-3-28-1804_116.snap on /snap/gnome-3-28-1804/116 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,930,/bin/mount,"dvar/lib/snapd/snaps/core_8039.snap on /snap/core/8039 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,931,/bin/mount,"dvar/lib/snapd/snaps/simplenote_177.snap on /snap/simplenote/177 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,932,/bin/mount,"dvar/lib/snapd/snaps/pycharm-community_172.snap on /snap/pycharm-community/172 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,933,/bin/mount,"dvar/lib/snapd/snaps/pycharm-professional_179.snap on /snap/pycharm-professional/179 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,934,/bin/mount,"dvar/lib/snapd/snaps/gtk-common-themes_1353.snap on /snap/gtk-common-themes/1353 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,935,/bin/mount,"dvar/lib/snapd/snaps/gnome-calculator_544.snap on /snap/gnome-calculator/544 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,936,/bin/mount,"dvar/lib/snapd/snaps/gnome-logs_61.snap on /snap/gnome-logs/61 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,937,/bin/mount,"dvar/lib/snapd/snaps/gnome-system-monitor_127.snap on /snap/gnome-system-monitor/127 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,938,/bin/mount,"dvar/lib/snapd/snaps/wine-platform-runtime_75.snap on /snap/wine-platform-runtime/75 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,939,/bin/mount,"dvar/lib/snapd/snaps/gnome-characters_375.snap on /snap/gnome-characters/375 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,940,/bin/mount,"dvar/lib/snapd/snaps/pycharm-community_175.snap on /snap/pycharm-community/175 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,941,/bin/mount,"dvar/lib/snapd/snaps/core18_1650.snap on /snap/core18/1650 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,942,/bin/mount,"dvar/lib/snapd/snaps/wine-platform-3-stable_6.snap on /snap/wine-platform-3-stable/6 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,943,/bin/mount,"dvar/lib/snapd/snaps/intellij-idea-community_197.snap on /snap/intellij-idea-community/197 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,944,/bin/mount,"dvar/lib/snapd/snaps/gnome-system-monitor_123.snap on /snap/gnome-system-monitor/123 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,945,/bin/mount,"dvar/lib/snapd/snaps/gnome-3-28-1804_110.snap on /snap/gnome-3-28-1804/110 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,946,/bin/mount,"dvar/lib/snapd/snaps/gnome-calculator_406.snap on /snap/gnome-calculator/406 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,947,/bin/mount,"dvar/lib/snapd/snaps/pycharm-professional_176.snap on /snap/pycharm-professional/176 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,948,/bin/mount,"dvar/lib/snapd/snaps/postman_97.snap on /snap/postman/97 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,949,/bin/mount,"dvar/lib/snapd/snaps/gnome-characters_399.snap on /snap/gnome-characters/399 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,950,/bin/mount,"dvar/lib/snapd/snaps/notepad-plus-plus_222.snap on /snap/notepad-plus-plus/222 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,951,/bin/mount,"dvar/lib/snapd/snaps/gnome-logs_81.snap on /snap/gnome-logs/81 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,952,/bin/mount,"dvar/lib/snapd/snaps/intellij-idea-community_202.snap on /snap/intellij-idea-community/202 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,953,/bin/mount,"dvar/lib/snapd/snaps/electronplayer_9.snap on /snap/electronplayer/9 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,954,/bin/mount,"dvar/lib/snapd/snaps/gtk-common-themes_1440.snap on /snap/gtk-common-themes/1440 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,955,/bin/mount,"ddev/sda1 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)"
+BBBP,956,/bin/mount,"tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=803120k,mode=700,uid=1000,gid=1000)"
+BBBP,957,/bin/mount,"gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)"
+BBBP,958,/bin/mount,"dvar/lib/snapd/snaps/core18_1668.snap on /snap/core18/1668 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,959,/bin/mount,"dvar/lib/snapd/snaps/notepad-plus-plus_223.snap on /snap/notepad-plus-plus/223 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,960,/bin/mount,"dvar/lib/snapd/snaps/wine-platform-runtime_80.snap on /snap/wine-platform-runtime/80 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,961,/bin/mount,"dvar/lib/snapd/snaps/simplenote_239.snap on /snap/simplenote/239 type squashfs (ro,nodev,relatime,x-gdu.hide)"
+BBBP,962,/bin/mount,"binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)"
+BBBP,963,/etc/fstab
+BBBP,964,/etc/fstab,"# /etc/fstab: static file system information."
+BBBP,965,/etc/fstab,"#"
+BBBP,966,/etc/fstab,"# Use 'blkid' to print the universally unique identifier for a"
+BBBP,967,/etc/fstab,"# device; this may be used with UUID= as a more robust way to name devices"
+BBBP,968,/etc/fstab,"# that works even if disks are added and removed. See fstab(5)."
+BBBP,969,/etc/fstab,"#"
+BBBP,970,/etc/fstab,"# <file system> <mount point>   <type>  <options>       <dump>  <pass>"
+BBBP,971,/etc/fstab,"# / was on /dev/sdb5 during installation"
+BBBP,972,/etc/fstab,"UUID=83fcfec9-523b-46f9-8bf9-4d09223c7ae5 /               ext4    errors=remount-ro 0       1"
+BBBP,973,/etc/fstab,"# /boot/efi was on /dev/sdb1 during installation"
+BBBP,974,/etc/fstab,"UUID=54ED-D176  /boot/efi       vfat    umask=0077      0       1"
+BBBP,975,/etc/fstab,"dswapfile                                 none            swap    sw              0       0"
+BBBP,976,netstat -r
+BBBP,977,netstat -r,"Kernel IP routing table"
+BBBP,978,netstat -r,"Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface"
+BBBP,979,uptime
+BBBP,980,uptime," 11:38:23 up 4 days, 18:21,  1 user,  load average: 1.02, 0.97, 1.02"
+BBBP,981,getconf PAGESIZE
+BBBP,982,getconf PAGESIZE,"4096"
+ZZZZ,T0001,11:38:24,02-FEB-2020
+CPU001,T0001,0.9,1.7,14.5,82.9,0.0
+CPU002,T0001,0.9,1.7,0.0,97.4,0.0
+CPU003,T0001,0.0,0.0,0.0,100.0,0.0
+CPU004,T0001,0.9,0.9,0.0,98.3,0.0
+CPU005,T0001,0.0,0.9,0.0,99.1,0.0
+CPU006,T0001,0.0,0.0,0.0,100.0,0.0
+CPU007,T0001,7.8,0.9,0.0,91.3,0.0
+CPU008,T0001,0.9,0.9,0.0,98.3,0.0
+CPU_ALL,T0001,1.2,0.9,1.8,96.1,0.0,,8
+MEM,T0001,7843.0,-0.0,-0.0,2048.0,644.7,-0.0,-0.0,1934.3,-0.0,2785.3,4468.1,-1.0,473.7,102.0,2093.6
+VM,Paging and Virtual Memory,nr_dirty,nr_writeback,nr_unstable,nr_page_table_pages,nr_mapped,nr_slab,pgpgin,pgpgout,pswpin,pswpout,pgfree,pgactivate,pgdeactivate,pgfault,pgmajfault,pginodesteal,slabs_scanned,kswapd_steal,kswapd_inodesteal,pageoutrun,allocstall,pgrotated,pgalloc_high,pgalloc_normal,pgalloc_dma,pgrefill_high,pgrefill_normal,pgrefill_dma,pgsteal_high,pgsteal_normal,pgsteal_dma,pgscan_kswapd_high,pgscan_kswapd_normal,pgscan_kswapd_dma,pgscan_direct_high,pgscan_direct_normal,pgscan_direct_dma
+VM,T0001,98,0,0,15182,194624,-1,0,20,0,0,7748,20,0,8428,0,0,0,0,0,0,0,0,0,8303,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0001,1,1,0.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0001,0.0,0.0,0.0,0.0
+NETPACKET,T0001,0.0,0.0,0.0,0.0
+JFSFILE,T0001,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.4,0.0,0.0,0.0,0.0,13.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.0,0.0,0.0,0.0,0.0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0002,11:38:26,02-FEB-2020
+CPU001,T0002,1.0,1.0,8.0,89.9,0.0
+CPU002,T0002,1.0,0.0,0.0,99.0,0.0
+CPU003,T0002,2.5,0.5,0.0,97.0,0.0
+CPU004,T0002,1.5,0.5,0.0,98.0,0.0
+CPU005,T0002,2.0,0.5,0.0,97.5,0.0
+CPU006,T0002,2.0,0.0,0.0,98.0,0.0
+CPU007,T0002,0.5,0.5,0.0,99.0,0.0
+CPU008,T0002,1.5,0.5,0.0,98.0,0.0
+CPU_ALL,T0002,1.5,0.3,1.1,97.1,0.0,,8
+MEM,T0002,7843.0,-0.0,-0.0,2048.0,648.3,-0.0,-0.0,1934.3,-0.0,2781.9,4468.1,-1.0,473.7,102.0,2093.6
+VM,T0002,99,0,0,15182,194625,-1,0,0,0,0,1622,0,0,63,0,0,0,0,0,0,0,0,0,735,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0002,1,0,1426.7,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0002,0.0,0.0,0.0,0.0
+NETPACKET,T0002,0.0,0.0,0.0,0.0
+JFSFILE,T0002,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0002,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0003,11:38:28,02-FEB-2020
+CPU001,T0003,1.5,1.0,0.0,97.5,0.0
+CPU002,T0003,1.0,0.0,0.0,99.0,0.0
+CPU003,T0003,1.5,0.5,0.0,98.0,0.0
+CPU004,T0003,1.0,0.0,0.0,99.0,0.0
+CPU005,T0003,1.0,0.0,0.0,99.0,0.0
+CPU006,T0003,2.5,0.5,0.0,97.0,0.0
+CPU007,T0003,1.5,0.0,0.0,98.5,0.0
+CPU008,T0003,2.0,0.0,0.0,98.0,0.0
+CPU_ALL,T0003,1.4,0.3,0.0,98.2,0.0,,8
+MEM,T0003,7843.0,-0.0,-0.0,2048.0,648.3,-0.0,-0.0,1934.3,-0.0,2781.8,4468.1,-1.0,473.7,102.0,2093.6
+VM,T0003,101,0,0,15182,194626,-1,0,0,0,0,224,0,0,12,0,0,0,0,0,0,0,0,0,229,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0003,1,0,1577.5,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0003,0.2,0.0,0.2,0.0
+NETPACKET,T0003,1.5,0.0,1.5,0.0
+JFSFILE,T0003,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0003,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0003,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0003,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0003,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0003,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0004,11:38:30,02-FEB-2020
+CPU001,T0004,1.0,1.5,17.0,80.5,0.0
+CPU002,T0004,1.0,0.5,1.5,97.0,0.0
+CPU003,T0004,1.0,0.0,0.0,99.0,0.0
+CPU004,T0004,0.5,0.5,0.0,99.0,0.0
+CPU005,T0004,0.0,0.0,0.0,100.0,0.0
+CPU006,T0004,0.5,0.5,10.5,88.5,0.0
+CPU007,T0004,2.0,0.5,0.0,97.5,0.0
+CPU008,T0004,2.0,0.5,0.0,97.5,0.0
+CPU_ALL,T0004,1.1,0.5,3.5,94.9,0.0,,8
+MEM,T0004,7843.0,-0.0,-0.0,2048.0,648.7,-0.0,-0.0,1934.3,-0.0,2784.5,4464.3,-1.0,473.7,102.0,2093.7
+VM,T0004,102,0,0,15182,194629,-1,136,20,1,0,1682,1,0,540,1,0,0,0,0,0,0,0,0,1536,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0004,1,0,1278.6,-1.0,-1.0,-1.0,1.0,-1.0,-1.0,-1.0
+NET,T0004,0.0,0.0,0.0,0.0
+NETPACKET,T0004,0.0,0.0,0.0,0.0
+JFSFILE,T0004,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0004,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0004,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,67.9,0.0,0.0,0.0,0.0,67.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0004,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0004,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0004,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.0,0.0,0.0,0.0,0.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0005,11:38:32,02-FEB-2020
+CPU001,T0005,0.5,0.0,0.0,99.5,0.0
+CPU002,T0005,0.0,0.5,0.0,99.5,0.0
+CPU003,T0005,0.5,0.0,0.0,99.5,0.0
+CPU004,T0005,0.5,0.0,0.0,99.5,0.0
+CPU005,T0005,0.0,0.0,0.0,100.0,0.0
+CPU006,T0005,0.0,0.0,0.0,100.0,0.0
+CPU007,T0005,0.0,0.5,0.0,99.5,0.0
+CPU008,T0005,1.0,0.0,0.0,99.0,0.0
+CPU_ALL,T0005,0.3,0.1,0.0,99.6,0.0,,8
+MEM,T0005,7843.0,-0.0,-0.0,2048.0,655.3,-0.0,-0.0,1934.3,-0.0,2778.0,4464.3,-1.0,473.7,102.0,2093.7
+VM,T0005,36,0,0,15182,194629,-1,0,272,0,0,1686,0,0,9,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0005,1,0,624.5,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0005,0.2,0.0,0.2,0.0
+NETPACKET,T0005,1.5,0.0,1.5,0.0
+JFSFILE,T0005,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,135.8,0.0,0.0,0.0,0.0,135.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.0,0.0,0.0,0.0,0.0,29.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.7,0.0,0.0,0.0,0.0,4.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0006,11:38:34,02-FEB-2020
+CPU001,T0006,0.5,0.5,0.0,99.0,0.0
+CPU002,T0006,0.0,0.0,0.0,100.0,0.0
+CPU003,T0006,0.0,0.5,0.0,99.5,0.0
+CPU004,T0006,0.0,0.0,0.0,100.0,0.0
+CPU005,T0006,0.5,0.5,0.0,99.0,0.0
+CPU006,T0006,0.0,0.0,0.0,100.0,0.0
+CPU007,T0006,0.5,0.0,0.0,99.5,0.0
+CPU008,T0006,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0006,0.3,0.2,0.0,99.5,0.0,,8
+MEM,T0006,7843.0,-0.0,-0.0,2048.0,655.1,-0.0,-0.0,1934.3,-0.0,2778.0,4464.3,-1.0,473.7,102.0,2093.7
+VM,T0006,37,0,0,15182,194630,-1,0,0,0,0,6,0,0,6,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0006,1,0,609.6,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0006,0.0,0.0,0.0,0.0
+NETPACKET,T0006,0.0,0.0,0.0,0.0
+JFSFILE,T0006,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0006,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0006,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0006,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0006,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0006,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0007,11:38:36,02-FEB-2020
+CPU001,T0007,0.5,0.0,0.0,99.5,0.0
+CPU002,T0007,1.0,0.0,5.5,93.5,0.0
+CPU003,T0007,0.5,0.5,0.0,99.0,0.0
+CPU004,T0007,0.0,0.5,1.5,98.0,0.0
+CPU005,T0007,0.0,0.0,0.0,100.0,0.0
+CPU006,T0007,0.0,0.0,0.0,100.0,0.0
+CPU007,T0007,0.0,0.0,0.0,100.0,0.0
+CPU008,T0007,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0007,0.2,0.1,0.9,98.8,0.0,,8
+MEM,T0007,7843.0,-0.0,-0.0,2048.0,655.1,-0.0,-0.0,1934.3,-0.0,2778.0,4464.4,-1.0,473.7,102.0,2093.7
+VM,T0007,9,32,0,15182,194630,-1,0,160,0,0,8,0,0,38,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0007,1,0,584.6,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0007,0.0,0.0,0.0,0.0
+NETPACKET,T0007,0.0,0.0,0.0,0.0
+JFSFILE,T0007,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0007,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0007,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0007,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.9,0.0,0.0,0.0,0.0,79.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0007,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.5,0.0,0.0,0.0,0.0,5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0007,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.5,0.0,0.0,0.0,0.0,14.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0008,11:38:38,02-FEB-2020
+CPU001,T0008,0.5,0.5,0.0,99.0,0.0
+CPU002,T0008,0.5,0.0,3.0,96.5,0.0
+CPU003,T0008,1.0,0.0,0.0,99.0,0.0
+CPU004,T0008,0.0,0.0,0.0,100.0,0.0
+CPU005,T0008,0.0,0.0,0.0,100.0,0.0
+CPU006,T0008,0.0,0.0,0.0,100.0,0.0
+CPU007,T0008,0.0,0.5,1.5,98.0,0.0
+CPU008,T0008,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0008,0.2,0.1,0.6,99.1,0.0,,8
+MEM,T0008,7843.0,-0.0,-0.0,2048.0,655.3,-0.0,-0.0,1934.3,-0.0,2778.0,4464.4,-1.0,473.7,102.0,2093.7
+VM,T0008,18,0,0,15182,194630,-1,0,112,0,0,16,0,0,9,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0008,1,0,662.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0008,0.2,0.0,0.2,0.0
+NETPACKET,T0008,1.5,0.0,1.5,0.0
+JFSFILE,T0008,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0008,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0008,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0008,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.9,0.0,0.0,0.0,0.0,55.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0008,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0008,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,9.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0009,11:38:40,02-FEB-2020
+CPU001,T0009,1.0,0.0,0.0,99.0,0.0
+CPU002,T0009,0.5,0.0,0.0,99.5,0.0
+CPU003,T0009,0.0,0.5,0.0,99.5,0.0
+CPU004,T0009,1.5,0.5,0.0,98.0,0.0
+CPU005,T0009,0.5,0.0,0.0,99.5,0.0
+CPU006,T0009,0.5,0.5,0.0,99.0,0.0
+CPU007,T0009,0.0,0.0,0.0,100.0,0.0
+CPU008,T0009,1.5,0.5,0.0,98.0,0.0
+CPU_ALL,T0009,0.8,0.3,0.0,98.9,0.0,,8
+MEM,T0009,7843.0,-0.0,-0.0,2048.0,650.9,-0.0,-0.0,1934.3,-0.0,2783.0,4464.5,-1.0,473.7,102.0,2093.7
+VM,T0009,19,0,0,15182,194633,-1,0,0,0,0,101,3,0,9,0,0,0,0,0,0,0,0,0,1394,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0009,1,0,903.1,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0009,0.0,0.0,0.0,0.0
+NETPACKET,T0009,0.0,0.0,0.0,0.0
+JFSFILE,T0009,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0009,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0009,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0009,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0009,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0009,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0010,11:38:42,02-FEB-2020
+CPU001,T0010,0.5,0.5,0.0,99.0,0.0
+CPU002,T0010,0.5,0.5,0.0,99.0,0.0
+CPU003,T0010,0.0,1.0,0.0,99.0,0.0
+CPU004,T0010,0.0,0.0,0.0,100.0,0.0
+CPU005,T0010,0.5,0.0,0.0,99.5,0.0
+CPU006,T0010,0.0,0.5,0.0,99.5,0.0
+CPU007,T0010,0.0,0.5,0.0,99.5,0.0
+CPU008,T0010,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0010,0.2,0.3,0.0,99.5,0.0,,8
+MEM,T0010,7843.0,-0.0,-0.0,2048.0,650.9,-0.0,-0.0,1934.3,-0.0,2783.0,4464.5,-1.0,473.7,102.0,2093.7
+VM,T0010,19,0,0,15182,194632,-1,0,4,0,0,40,0,0,11,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0010,1,0,750.8,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0010,0.2,0.0,0.2,0.0
+NETPACKET,T0010,1.5,0.0,1.5,0.0
+JFSFILE,T0010,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0010,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0010,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0010,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0010,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0010,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0011,11:38:44,02-FEB-2020
+CPU001,T0011,1.0,0.0,0.0,99.0,0.0
+CPU002,T0011,0.5,1.0,0.0,98.5,0.0
+CPU003,T0011,3.0,0.5,0.0,96.6,0.0
+CPU004,T0011,0.0,0.0,0.0,100.0,0.0
+CPU005,T0011,1.0,0.0,0.0,99.0,0.0
+CPU006,T0011,0.5,0.0,0.0,99.5,0.0
+CPU007,T0011,0.5,0.0,0.0,99.5,0.0
+CPU008,T0011,2.0,0.0,0.0,98.0,0.0
+CPU_ALL,T0011,1.0,0.3,0.0,98.7,0.0,,8
+MEM,T0011,7843.0,-0.0,-0.0,2048.0,651.9,-0.0,-0.0,1934.3,-0.0,2781.1,4464.5,-1.0,473.7,102.0,2093.7
+VM,T0011,20,0,0,15182,194633,-1,0,20,0,0,2689,0,0,25,0,0,0,0,0,0,0,0,0,2180,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0011,1,0,1084.4,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0011,0.0,0.0,0.0,0.0
+NETPACKET,T0011,0.0,0.0,0.0,0.0
+JFSFILE,T0011,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0011,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0011,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0011,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0011,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0011,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0012,11:38:46,02-FEB-2020
+CPU001,T0012,0.5,1.0,0.0,98.5,0.0
+CPU002,T0012,1.0,0.5,5.5,93.0,0.0
+CPU003,T0012,1.0,0.5,0.0,98.5,0.0
+CPU004,T0012,2.5,1.0,0.0,96.5,0.0
+CPU005,T0012,0.5,0.0,0.0,99.5,0.0
+CPU006,T0012,0.0,0.5,0.0,99.5,0.0
+CPU007,T0012,0.5,0.5,0.0,99.0,0.0
+CPU008,T0012,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0012,0.9,0.4,0.7,98.0,0.0,,8
+MEM,T0012,7843.0,-0.0,-0.0,2048.0,651.4,-0.0,-0.0,1934.3,-0.0,2784.0,4461.4,-1.0,473.7,102.0,2093.7
+VM,T0012,21,0,0,15179,194635,-1,0,4,0,0,1487,0,0,582,0,0,0,0,0,0,0,0,0,1459,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0012,1,0,1052.4,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0012,0.0,0.0,0.0,0.0
+NETPACKET,T0012,0.0,0.0,0.0,0.0
+JFSFILE,T0012,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0012,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0012,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0012,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0012,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0012,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0013,11:38:48,02-FEB-2020
+CPU001,T0013,0.5,1.5,0.0,98.0,0.0
+CPU002,T0013,2.0,0.0,0.0,98.0,0.0
+CPU003,T0013,0.5,0.0,0.0,99.5,0.0
+CPU004,T0013,0.0,0.0,0.0,100.0,0.0
+CPU005,T0013,1.0,0.5,0.0,98.5,0.0
+CPU006,T0013,2.5,0.0,0.0,97.5,0.0
+CPU007,T0013,0.5,0.5,0.0,99.0,0.0
+CPU008,T0013,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0013,0.9,0.2,0.0,98.9,0.0,,8
+MEM,T0013,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2790.1,4461.5,-1.0,473.7,102.0,2093.8
+VM,T0013,22,0,0,15179,194640,-1,0,0,0,0,160,1,0,17,0,0,0,0,0,0,0,0,0,1739,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0013,1,0,1195.7,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0013,0.2,0.0,0.2,0.0
+NETPACKET,T0013,1.5,0.0,1.5,0.0
+JFSFILE,T0013,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0013,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0013,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0013,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0013,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0013,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0014,11:38:50,02-FEB-2020
+CPU001,T0014,0.5,0.0,0.0,99.5,0.0
+CPU002,T0014,0.0,0.0,5.0,95.0,0.0
+CPU003,T0014,1.0,0.5,0.0,98.5,0.0
+CPU004,T0014,0.0,0.0,0.0,100.0,0.0
+CPU005,T0014,0.5,0.5,0.0,99.0,0.0
+CPU006,T0014,1.0,0.0,0.0,99.0,0.0
+CPU007,T0014,0.0,0.0,0.0,100.0,0.0
+CPU008,T0014,0.5,0.5,0.0,99.0,0.0
+CPU_ALL,T0014,0.4,0.2,0.6,98.8,0.0,,8
+MEM,T0014,7843.0,-0.0,-0.0,2048.0,651.8,-0.0,-0.0,1934.3,-0.0,2783.9,4461.5,-1.0,473.7,102.0,2093.7
+VM,T0014,22,0,0,15179,194639,-1,0,12,0,0,3161,0,0,18,0,0,0,0,0,0,0,0,0,1603,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0014,1,1,691.9,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0014,0.0,0.0,0.0,0.0
+NETPACKET,T0014,0.0,0.0,0.0,0.0
+JFSFILE,T0014,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0014,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0014,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0014,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0014,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0014,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0015,11:38:52,02-FEB-2020
+CPU001,T0015,0.5,1.0,0.0,98.5,0.0
+CPU002,T0015,0.0,0.5,0.5,99.0,0.0
+CPU003,T0015,1.0,0.0,0.0,99.0,0.0
+CPU004,T0015,0.5,0.0,0.0,99.5,0.0
+CPU005,T0015,1.0,1.0,0.0,98.0,0.0
+CPU006,T0015,2.5,0.5,0.0,97.0,0.0
+CPU007,T0015,0.5,0.5,0.0,99.0,0.0
+CPU008,T0015,1.0,0.0,0.0,99.0,0.0
+CPU_ALL,T0015,0.9,0.6,0.1,98.4,0.0,,8
+MEM,T0015,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2790.0,4461.5,-1.0,473.7,102.0,2093.7
+VM,T0015,26,0,0,15179,194639,-1,0,0,0,0,213,0,0,17,0,0,0,0,0,0,0,0,0,1763,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0015,1,0,1447.8,-1.0,-1.0,-1.0,0.5,-1.0,-1.0,-1.0
+NET,T0015,0.2,0.0,0.2,0.0
+NETPACKET,T0015,1.5,0.0,1.5,0.0
+JFSFILE,T0015,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0015,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0015,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0015,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0015,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0015,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0016,11:38:54,02-FEB-2020
+CPU001,T0016,1.0,0.0,0.0,99.0,0.0
+CPU002,T0016,0.0,0.5,0.0,99.5,0.0
+CPU003,T0016,1.5,0.0,0.0,98.5,0.0
+CPU004,T0016,0.5,0.5,0.0,99.0,0.0
+CPU005,T0016,0.0,0.0,0.0,100.0,0.0
+CPU006,T0016,0.0,0.0,0.0,100.0,0.0
+CPU007,T0016,1.0,0.5,0.0,98.5,0.0
+CPU008,T0016,1.0,0.0,0.0,99.0,0.0
+CPU_ALL,T0016,0.6,0.1,0.0,99.2,0.0,,8
+MEM,T0016,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2790.0,4461.5,-1.0,473.7,102.0,2093.7
+VM,T0016,33,0,0,15179,194637,-1,0,0,0,0,62,1,0,12,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0016,2,0,850.2,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0016,0.0,0.0,0.0,0.0
+NETPACKET,T0016,0.0,0.0,0.0,0.0
+JFSFILE,T0016,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0016,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0017,11:38:56,02-FEB-2020
+CPU001,T0017,0.0,1.0,0.0,99.0,0.0
+CPU002,T0017,0.5,0.0,0.0,99.5,0.0
+CPU003,T0017,0.0,0.0,0.0,100.0,0.0
+CPU004,T0017,2.5,0.0,0.0,97.5,0.0
+CPU005,T0017,0.5,0.5,0.0,99.0,0.0
+CPU006,T0017,0.0,0.0,0.0,100.0,0.0
+CPU007,T0017,0.5,0.0,5.5,94.0,0.0
+CPU008,T0017,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0017,0.6,0.2,0.6,98.6,0.0,,8
+MEM,T0017,7843.0,-0.0,-0.0,2048.0,650.2,-0.0,-0.0,1934.3,-0.0,2784.8,4461.6,-1.0,473.7,102.0,2093.7
+VM,T0017,35,0,0,15179,194648,-1,0,28,0,0,1616,0,0,48,0,0,0,0,0,0,0,0,0,296,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0017,1,1,1211.6,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0017,0.1,0.0,0.1,0.0
+NETPACKET,T0017,2.0,0.0,2.0,0.0
+JFSFILE,T0017,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0017,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0017,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0017,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0017,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0017,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0018,11:38:58,02-FEB-2020
+CPU001,T0018,0.0,0.0,0.0,100.0,0.0
+CPU002,T0018,0.5,0.5,0.0,99.0,0.0
+CPU003,T0018,1.5,1.0,0.0,97.5,0.0
+CPU004,T0018,0.5,0.0,0.0,99.5,0.0
+CPU005,T0018,1.0,0.0,0.0,99.0,0.0
+CPU006,T0018,1.0,0.0,0.0,99.0,0.0
+CPU007,T0018,0.5,0.0,2.5,97.0,0.0
+CPU008,T0018,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0018,0.5,0.2,0.3,99.0,0.0,,8
+MEM,T0018,7843.0,-0.0,-0.0,2048.0,656.5,-0.0,-0.0,1934.3,-0.0,2778.5,4461.6,-1.0,473.8,102.0,2093.7
+VM,T0018,75,0,0,15179,194646,-1,0,16,0,0,1699,0,0,68,0,0,0,0,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0018,1,0,1334.9,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0018,0.2,0.0,0.2,0.0
+NETPACKET,T0018,1.5,0.0,1.5,0.0
+JFSFILE,T0018,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.7,0.0,0.0,0.0,0.0,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0019,11:39:00,02-FEB-2020
+CPU001,T0019,0.5,0.0,0.0,99.5,0.0
+CPU002,T0019,0.0,0.5,0.0,99.5,0.0
+CPU003,T0019,0.5,0.0,0.0,99.5,0.0
+CPU004,T0019,0.5,0.0,0.0,99.5,0.0
+CPU005,T0019,0.5,0.0,0.0,99.5,0.0
+CPU006,T0019,0.0,0.0,0.0,100.0,0.0
+CPU007,T0019,0.0,0.5,5.5,94.0,0.0
+CPU008,T0019,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0019,0.4,0.1,0.7,98.8,0.0,,8
+MEM,T0019,7843.0,-0.0,-0.0,2048.0,656.8,-0.0,-0.0,1934.3,-0.0,2778.0,4461.7,-1.0,473.8,102.0,2093.7
+VM,T0019,79,0,0,15179,194643,-1,0,68,0,0,152,0,0,83,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0019,1,0,614.5,-1.0,-1.0,-1.0,0.5,-1.0,-1.0,-1.0
+NET,T0019,0.0,0.0,0.0,0.0
+NETPACKET,T0019,0.0,0.0,0.0,0.0
+JFSFILE,T0019,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.9,0.0,0.0,0.0,0.0,33.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,1.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0019,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.7,0.0,0.0,0.0,0.0,22.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0020,11:39:02,02-FEB-2020
+CPU001,T0020,0.0,1.0,0.0,99.0,0.0
+CPU002,T0020,0.0,0.5,0.0,99.5,0.0
+CPU003,T0020,1.0,0.0,0.0,99.0,0.0
+CPU004,T0020,0.0,0.5,0.0,99.5,0.0
+CPU005,T0020,0.0,0.5,0.0,99.5,0.0
+CPU006,T0020,1.0,1.0,0.0,98.0,0.0
+CPU007,T0020,1.0,0.0,6.0,93.0,0.0
+CPU008,T0020,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0020,0.4,0.4,0.8,98.4,0.0,,8
+MEM,T0020,7843.0,-0.0,-0.0,2048.0,656.3,-0.0,-0.0,1934.3,-0.0,2778.9,4461.8,-1.0,473.8,102.0,2093.8
+VM,T0020,88,0,0,15179,194643,-1,0,84,0,0,39,0,0,16,0,0,0,0,0,0,0,0,0,299,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0020,1,0,835.7,-1.0,-1.0,-1.0,0.5,-1.0,-1.0,-1.0
+NET,T0020,0.2,0.0,0.2,0.0
+NETPACKET,T0020,1.5,0.0,1.5,0.0
+JFSFILE,T0020,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0020,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0020,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0020,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.9,0.0,0.0,0.0,0.0,41.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0020,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.5,0.0,0.0,0.0,0.0,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0020,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0021,11:39:04,02-FEB-2020
+CPU001,T0021,0.5,0.5,0.0,99.0,0.0
+CPU002,T0021,0.5,0.5,0.0,99.0,0.0
+CPU003,T0021,2.0,0.0,0.0,98.0,0.0
+CPU004,T0021,0.5,0.0,0.0,99.5,0.0
+CPU005,T0021,1.0,0.0,0.0,99.0,0.0
+CPU006,T0021,1.0,2.0,0.0,97.0,0.0
+CPU007,T0021,2.0,0.5,0.0,97.5,0.0
+CPU008,T0021,1.0,0.5,0.0,98.5,0.0
+CPU_ALL,T0021,1.1,0.5,0.0,98.4,0.0,,8
+MEM,T0021,7843.0,-0.0,-0.0,2048.0,643.7,-0.0,-0.0,1934.3,-0.0,2791.4,4461.8,-1.0,473.8,102.0,2093.8
+VM,T0021,84,0,0,15179,194647,-1,0,0,0,0,281,0,0,20,0,0,0,0,0,0,0,0,0,3452,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0021,1,0,1327.9,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0021,0.0,0.0,0.0,0.0
+NETPACKET,T0021,0.0,0.0,0.0,0.0
+JFSFILE,T0021,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0021,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0021,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0021,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0021,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0021,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0022,11:39:06,02-FEB-2020
+CPU001,T0022,2.0,1.5,0.0,96.5,0.0
+CPU002,T0022,0.5,1.0,0.0,98.5,0.0
+CPU003,T0022,2.0,1.0,0.0,96.9,0.0
+CPU004,T0022,0.0,0.5,0.0,99.5,0.0
+CPU005,T0022,0.5,0.5,0.0,99.0,0.0
+CPU006,T0022,0.5,0.0,0.0,99.5,0.0
+CPU007,T0022,2.5,2.0,0.0,95.5,0.0
+CPU008,T0022,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0022,1.0,0.9,0.0,98.1,0.0,,8
+MEM,T0022,7843.0,-0.0,-0.0,2048.0,655.9,-0.0,-0.0,1934.3,-0.0,2779.3,4461.9,-1.0,473.8,102.0,2093.8
+VM,T0022,86,0,0,15179,194654,-1,0,56,0,0,4549,0,0,82,0,0,0,0,0,0,0,0,0,1417,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0022,1,0,2536.6,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0022,1.3,0.0,1.3,0.0
+NETPACKET,T0022,16.0,0.0,16.0,0.0
+JFSFILE,T0022,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,0.0,0.0,0.0,0.0,28.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0022,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,0.0,0.0,0.0,0.0,56.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0023,11:39:08,02-FEB-2020
+CPU001,T0023,1.0,0.5,0.0,98.5,0.0
+CPU002,T0023,0.0,1.0,0.0,99.0,0.0
+CPU003,T0023,1.0,1.5,0.0,97.5,0.0
+CPU004,T0023,1.0,0.5,0.0,98.5,0.0
+CPU005,T0023,1.0,0.0,0.0,99.0,0.0
+CPU006,T0023,1.0,0.5,0.0,98.5,0.0
+CPU007,T0023,0.5,0.0,6.0,93.5,0.0
+CPU008,T0023,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0023,0.8,0.5,0.7,98.1,0.0,,8
+MEM,T0023,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2788.3,4461.9,-1.0,473.8,102.0,2093.8
+VM,T0023,56,0,0,15179,194659,-1,0,132,0,0,389,0,0,19,0,0,0,0,0,0,0,0,0,2775,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0023,3,0,1493.7,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0023,0.5,0.0,0.5,0.0
+NETPACKET,T0023,5.5,0.0,5.5,0.0
+JFSFILE,T0023,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,65.9,0.0,0.0,0.0,0.0,65.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.5,0.0,0.0,0.0,0.0,11.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0023,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.7,0.0,0.0,0.0,0.0,5.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0024,11:39:10,02-FEB-2020
+CPU001,T0024,2.5,1.5,0.0,96.0,0.0
+CPU002,T0024,1.0,0.0,0.0,99.0,0.0
+CPU003,T0024,0.5,0.0,0.0,99.5,0.0
+CPU004,T0024,1.0,0.5,0.0,98.5,0.0
+CPU005,T0024,0.0,0.5,0.0,99.5,0.0
+CPU006,T0024,0.5,0.0,0.0,99.5,0.0
+CPU007,T0024,0.5,0.0,0.0,99.5,0.0
+CPU008,T0024,0.5,0.5,0.0,99.0,0.0
+CPU_ALL,T0024,0.8,0.3,0.0,98.9,0.0,,8
+MEM,T0024,7843.0,-0.0,-0.0,2048.0,646.9,-0.0,-0.0,1934.3,-0.0,2788.3,4460.9,-1.0,473.8,102.0,2093.8
+VM,T0024,60,0,0,15179,194663,-1,0,0,0,0,332,0,0,55,0,0,0,0,0,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0024,1,0,1102.3,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0024,0.0,0.0,0.0,0.0
+NETPACKET,T0024,0.0,0.0,0.0,0.0
+JFSFILE,T0024,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5,11:39:04,02-FEB-2020
+CPU001,T0025,1.0,1.5,0.0,97.5,0.0
+CPU002,T0025,0.5,1.0,0.0,98.5,0.0
+CPU003,T0025,3.0,0.0,0.0,97.0,0.0
+CPU004,T0025,0.5,0.0,0.0,99.5,0.0
+CPU005,T0025,1.0,0.0,0.0,99.0,0.0
+CPU006,T0025,1.0,1.5,0.0,97.5,0.0
+CPU007,T0025,3.5,1.5,0.0,95.0,0.0
+CPU008,T0025,1.0,0.5,0.0,98.5,0.0
+CPU_ALL,T0025,1.4,0.8,0.0,97.7,0.0,,8
+MEM,T0025,7843.0,-0.0,-0.0,2048.0,639.3,-0.0,-0.0,1934.3,-0.0,2795.9,4461.8,-1.0,473.8,102.0,2093.8
+VM,T0025,84,0,0,15179,194650,-1,0,0,0,0,394,0,0,23,0,0,0,0,0,0,0,0,0,4718,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0025,1,0,2332.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0025,0.0,0.0,0.0,0.0
+NETPACKET,T0025,0.0,0.0,0.0,0.0
+JFSFILE,T0025,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0025,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0025,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0025,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0025,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0025,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0026,11:39:06,02-FEB-2020
+CPU001,T0026,1.5,1.0,0.0,97.5,0.0
+CPU002,T0026,0.5,0.5,0.0,99.0,0.0
+CPU003,T0026,1.0,2.0,0.0,97.0,0.0
+CPU004,T0026,0.0,1.0,0.0,99.0,0.0
+CPU005,T0026,1.0,0.5,0.0,98.5,0.0
+CPU006,T0026,1.0,0.0,0.0,99.0,0.0
+CPU007,T0026,1.0,1.0,6.0,92.0,0.0
+CPU008,T0026,0.5,0.0,0.0,99.5,0.0
+CPU_ALL,T0026,0.8,0.8,0.7,97.7,0.0,,8
+MEM,T0026,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2789.0,4461.9,-1.0,473.8,102.0,2093.8
+VM,T0026,62,0,0,15179,194659,-1,0,188,0,0,4479,0,0,86,0,0,0,0,0,0,0,0,0,2770,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0026,1,0,1654.4,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0026,1.6,0.0,1.6,0.0
+NETPACKET,T0026,20.0,0.0,20.0,0.0
+JFSFILE,T0026,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0026,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0026,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0026,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,93.9,0.0,0.0,0.0,0.0,93.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0026,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0026,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.8,0.0,0.0,0.0,0.0,7.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ZZZZ,T0027,11:39:08,02-FEB-2020
+CPU001,T0027,2.0,1.0,0.0,97.0,0.0
+CPU002,T0027,0.5,1.0,0.0,98.5,0.0
+CPU003,T0027,1.0,0.5,0.0,98.5,0.0
+CPU004,T0027,1.5,0.0,0.0,98.5,0.0
+CPU005,T0027,0.5,0.0,0.0,99.5,0.0
+CPU006,T0027,0.5,0.5,0.0,99.0,0.0
+CPU007,T0027,0.5,0.0,0.0,99.5,0.0
+CPU008,T0027,0.0,0.0,0.0,100.0,0.0
+CPU_ALL,T0027,0.8,0.4,0.0,98.9,0.0,,8
+MEM,T0027,7843.0,-0.0,-0.0,2048.0,646.0,-0.0,-0.0,1934.3,-0.0,2788.3,4461.9,-1.0,473.8,102.0,2093.8
+VM,T0027,58,0,0,15179,194659,-1,0,0,0,0,369,0,0,13,0,0,0,0,0,0,0,0,0,180,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0027,1,0,1587.8,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0027,0.2,0.0,0.2,0.0
+NETPACKET,T0027,1.5,0.0,1.5,0.0
+JFSFILE,T0027,0.0,0.2,12.8,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+DISKBUSY,T0027,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKREAD,T0027,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKWRITE,T0027,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKXFER,T0027,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DISKBSIZE,T0027,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
