@@ -1,5 +1,6 @@
 package com.nmon.parser.NmonParser.nmonhandlers;
 
+import com.nmon.parser.NmonParser.utils.CommonUtils;
 import lombok.Data;
 import org.springframework.core.io.ClassPathResource;
 
@@ -109,15 +110,16 @@ public class MetricsData{
                                 }
                              });
 
-
+                            String keyTime = tTime.get("time")+","+tTime.get("date");
                             //11:38:26,02-FEB-2020
-                            SimpleDateFormat format = new SimpleDateFormat("hh:mm:ss,dd-MMM-yyyy");
+                          /*  SimpleDateFormat format = new SimpleDateFormat();
                             Calendar cal = Calendar.getInstance();
 
-                            String keyTime = tTime.get("time")+","+tTime.get("date");
+
                             cal.setTime(format.parse(keyTime));
-                            /*Timestamp timestamp = new Timestamp(cal.getTimeInMillis());
+                            *//*Timestamp timestamp = new Timestamp(cal.getTimeInMillis());
                             */
+                            Long timeStamp = CommonUtils.getTimeStampFromFormattedTime(keyTime, "hh:mm:ss,dd-MMM-yyyy");
 
                             map.put(TZTime, values);
 
