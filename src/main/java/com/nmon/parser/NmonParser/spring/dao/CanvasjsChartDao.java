@@ -1,10 +1,9 @@
-package com.nmon.parser.NmonParser.services;
-
+package com.nmon.parser.NmonParser.spring.dao;
 
 import java.util.List;
 import java.util.Map;
 
-public interface CanvasjsChartService {
+public interface CanvasjsChartDao {
 
     List<List<Map<Object, Object>>> getCanvasjsChartData();
 

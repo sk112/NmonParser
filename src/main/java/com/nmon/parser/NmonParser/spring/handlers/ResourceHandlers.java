@@ -1,4 +1,4 @@
-package com.nmon.parser.NmonParser.handlers;
+package com.nmon.parser.NmonParser.spring.handlers;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
 package com.nmon.parser.NmonParser.nmonhandlers;
 
-import com.nmon.parser.NmonParser.utils.CommonUtils;
+import com.nmon.parser.NmonParser.common.CommonUtils;
 import lombok.Data;
 import org.springframework.core.io.ClassPathResource;
 
@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
@@ -17,7 +16,7 @@ import java.util.stream.Collectors;
 @Data
 public class MetricsData{
 
-    public static HashMap<String, HashMap<String, Object> > metricNodes = new HashMap<>();
+    public LinkedHashMap<String, HashMap<String, Object> > metricNodes = new LinkedHashMap<>();
     /**
      * Object -> HashMap {String<Time>, HashMap{key, <values>} }
      * Metric ex:CPU..
@@ -25,7 +24,7 @@ public class MetricsData{
      *      |-> metric ex: avg.
      *      |-> value
      */
-    public static HashMap<String, Object> metricData = new HashMap<>();
+    public LinkedHashMap<String, Object> metricData = new LinkedHashMap<>();
 
     /**
      *
@@ -65,7 +64,7 @@ public class MetricsData{
     }
 
     private void initializeMetricsData(TransactionTimingsData t) throws IOException {
-        File resource = new ClassPathResource("static/data/nmon/NmonFile.nmon").getFile();
+        File resource = new ClassPathResource("static/data/nmon/NmonFile1.nmon").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
         try{
@@ -80,7 +79,7 @@ public class MetricsData{
 
                 boolean firstLine = true;
 
-                HashMap<String, HashMap<String, Float>> map = new HashMap<>();
+                HashMap<Long, HashMap<String, Float>> map = new HashMap<>();
 
                 for(String  line : filteredLines){
 
@@ -92,7 +91,7 @@ public class MetricsData{
                         String Tname = tokens[count.getAndIncrement()];
                         String TZTime = tokens[count.getAndIncrement()];
 
-                        System.out.println(Tname + " "+TZTime);
+//                        System.out.println(Tname + " "+TZTime);
                         HashMap<String, String> tTime = t.transactionTimes.get(TZTime);
 
                         if(tTime != null){
@@ -103,7 +102,7 @@ public class MetricsData{
                             HashMap<String, Float> values = new HashMap<>();
                             list.forEach(item -> {
                                 int i = count.getAndIncrement();
-                                if(!tokens[i].equals("")){
+                                if(!(tokens[i].equals("") || tokens[i].equals("-nan"))){
                                     values.put(item, Float.parseFloat(tokens[i]));
                                 }else{
                                     values.put(item, (float) 0.0);
@@ -121,7 +120,7 @@ public class MetricsData{
                             */
                             Long timeStamp = CommonUtils.getTimeStampFromFormattedTime(keyTime, "hh:mm:ss,dd-MMM-yyyy");
 
-                            map.put(TZTime, values);
+                            map.put(timeStamp, values);
 
                             metricData.put(Tname, map);
                         }else{
@@ -138,6 +137,7 @@ public class MetricsData{
 
         }catch (Exception ex){
             System.out.println("An exception was thrown" + ex.getMessage());
+            ex.printStackTrace();
         }
     }
 
@@ -152,10 +152,6 @@ public class MetricsData{
 
         return list;
     }
-
-
-
-
 
 }
 

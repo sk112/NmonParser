@@ -31,7 +31,7 @@ public class TransactionTimingsData {
     }
 
     private void storeTimeData() throws IOException {
-        File resource = new ClassPathResource("static/data/nmon/NmonFile.nmon").getFile();
+        File resource = new ClassPathResource("static/data/nmon/NmonFile1.nmon").getFile();
         Path path = FileSystems.getDefault().getPath(resource.getPath());
 
         try{

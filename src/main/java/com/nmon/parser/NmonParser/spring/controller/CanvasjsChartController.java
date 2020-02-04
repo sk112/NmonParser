@@ -1,7 +1,6 @@
-package com.nmon.parser.NmonParser.controller;
+package com.nmon.parser.NmonParser.spring.controller;
 
-import com.nmon.parser.NmonParser.nmonhandlers.MetricsData;
-import com.nmon.parser.NmonParser.services.CanvasjsChartService;
+import com.nmon.parser.NmonParser.spring.services.CanvasjsChartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

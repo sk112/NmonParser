@@ -1,4 +1,4 @@
-package com.nmon.parser.NmonParser.utils;
+package com.nmon.parser.NmonParser.common;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

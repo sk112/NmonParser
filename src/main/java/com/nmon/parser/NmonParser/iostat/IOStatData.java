@@ -1,6 +1,6 @@
 package com.nmon.parser.NmonParser.iostat;
 
-import com.nmon.parser.NmonParser.utils.CommonUtils;
+import com.nmon.parser.NmonParser.common.CommonUtils;
 import com.opencsv.CSVWriter;
 import org.springframework.core.io.ClassPathResource;
 import org.yaml.snakeyaml.Yaml;
@@ -20,14 +20,14 @@ import java.util.stream.Collectors;
 
 public class IOStatData {
 
-    HashMap<String , Object> ioStatMap = new HashMap<>();
+    LinkedHashMap<String , Object> ioStatMap = new LinkedHashMap<>();
 
     /**
      *  - time
      *      \ --metric
      *      \ --value
      */
-    public HashMap<String, HashMap<String, String>> iostatData = new HashMap<String, HashMap<String, String>>();
+    public LinkedHashMap<String, HashMap<String, String>> iostatData = new LinkedHashMap<String, HashMap<String, String>>();
 
     Integer timeInterval;
 
@@ -46,7 +46,7 @@ public class IOStatData {
 
     private void convertIOStatToCSV() throws IOException {
 
-        SortedMap<String, HashMap<String, String>> sortedMap = new TreeMap<String, HashMap<String, String>>(iostatData);
+//        SortedMap<String, HashMap<String, String>> iostatData = new TreeMap<String, HashMap<String, String>>(this.iostatData);
 
 
         File file = new File("iostat.csv");
@@ -65,13 +65,13 @@ public class IOStatData {
         AtomicBoolean notSet = new AtomicBoolean(true);
         AtomicReference<List<String>> listMetricKeys = new AtomicReference<>();
 
-        sortedMap.keySet().forEach(entry -> {
-            HashMap<String, String> map = sortedMap.get(entry);
+        iostatData.keySet().forEach(entry -> {
+            HashMap<String, String> map = iostatData.get(entry);
 
             if(notSet.get()){
                 Set<String> metricKeys = map.keySet();
 
-                listMetricKeys.set(metricKeys.stream().collect(Collectors.toList()));
+                listMetricKeys.set(new ArrayList<>(metricKeys));
 
                 listMetricKeys.get().add(0, "timestamp");
                 String [] headers = listMetricKeys.get().toArray(new String[0]);

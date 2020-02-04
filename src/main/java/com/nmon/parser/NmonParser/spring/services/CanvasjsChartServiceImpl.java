@@ -1,9 +1,9 @@
-package com.nmon.parser.NmonParser.services;
+package com.nmon.parser.NmonParser.spring.services;
 
 import java.util.List;
 import java.util.Map;
 
-import com.nmon.parser.NmonParser.dao.CanvasjsChartDaoImpl;
+import com.nmon.parser.NmonParser.spring.dao.CanvasjsChartDaoImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
